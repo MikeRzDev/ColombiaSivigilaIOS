@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  ColombiaSivigilaIOS6
+//  ColombiaSivigila
 //
-//  Created by Mike on 12/17/13.
+//  Created by Mike on 12/10/13.
 //  Copyright (c) 2013 iPRO. All rights reserved.
 //
 
@@ -12,10 +12,38 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
+    
+    //deteccion de pantallas 3.5 inch + aplicacion de storyboard correspondiente
+    if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+    {
+        CGSize result = [[UIScreen mainScreen] bounds].size;
+        if(result.height == 480)
+        {
+             UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"iPhone3.5_Storyboard" bundle:nil];
+            
+            self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+            self.window.rootViewController = [mainStoryboard instantiateInitialViewController];
+            [self.window makeKeyAndVisible];
+            
+        }
+
+    }
+    
+    //cambiar color navigation bar
+    [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
+
+    //cambiar color texto prompt en navigation bar
+    NSDictionary *navbarTitleTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
+                                               [UIColor whiteColor],UITextAttributeTextColor,
+                                               [UIColor blackColor], UITextAttributeTextShadowColor,
+                                               [NSValue valueWithUIOffset:UIOffsetMake(-1, 0)], UITextAttributeTextShadowOffset, nil];
+    
+    [[UINavigationBar appearance] setTitleTextAttributes:navbarTitleTextAttributes];
+    
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="13A603" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="ojV-Zq-aAl">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Acerca De View Controller-->
+        <scene sceneID="6sq-1U-hpd">
+            <objects>
+                <viewController id="ZRS-gd-OmV" customClass="acercaDe_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IcG-3J-mnx">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="acerca_de_ipad.png" id="85d-aI-57S">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="930"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" prompt="Acerca de" id="Zil-6b-sQT">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="QMG-Py-LAz"/>
+                        <barButtonItem key="rightBarButtonItem" title="Introduccion" id="Bi4-97-fz7">
+                            <connections>
+                                <segue destination="FPN-he-dix" kind="push" id="MV3-gH-HCS"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qaw-v0-DpM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1473" y="-3743"/>
+        </scene>
+        <!--Menu Principal view Controller - Colombia SiVigila-->
+        <scene sceneID="jJa-ZA-tIf">
+            <objects>
+                <viewController id="d7N-nh-YhZ" customClass="menuPrincipal_viewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Oh6-XR-Ptj">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_ipad.png" id="GVZ-dZ-jcS">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZUl-jQ-z9x">
+                                <rect key="frame" x="222" y="485" width="325" height="280"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="ipad_eno.png"/>
+                                <connections>
+                                    <segue destination="GiS-pX-fgZ" kind="push" id="YEN-o1-xBc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="CiN-PY-yhb">
+                                <rect key="frame" x="249" y="103" width="270" height="285"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="ipad_generalidades_sivigila.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="VjL-Zg-6KR" kind="push" id="Ka9-7s-3g8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Menu Principal" id="uhk-Hb-Y3H">
+                        <barButtonItem key="leftBarButtonItem" title="Acerca de" id="ZYN-6b-QIU">
+                            <connections>
+                                <segue destination="ZRS-gd-OmV" kind="push" id="xbe-z5-joW"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="OM3-5L-2U2">
+                            <connections>
+                                <action selector="updateDatabaseButtonOnClick:" destination="d7N-nh-YhZ" id="hhc-4I-o6y"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Tr-En-Pr3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="394" y="-2209"/>
+        </scene>
+        <!--Dir Telef View Controller-->
+        <scene sceneID="4bz-Ly-dLW">
+            <objects>
+                <viewController id="4x3-Eu-zKy" customClass="dirTelef_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hqN-eo-KyC">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_ipad.png" id="P4x-rR-3Yh">
+                                <rect key="frame" x="0.0" y="-94" width="768" height="1024"/>
+                            </imageView>
+                            <pickerView contentMode="scaleToFill" id="iUh-aI-oIt">
+                                <rect key="frame" x="0.0" y="3" width="768" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="4x3-Eu-zKy" id="E5l-eq-Fkh"/>
+                                    <outlet property="delegate" destination="4x3-Eu-zKy" id="Pxb-lh-M7A"/>
+                                </connections>
+                            </pickerView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="P2d-UK-TSj">
+                                <rect key="frame" x="20" y="228" width="728" height="545"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut </string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" prompt="Directorio " id="8ps-Ge-qu6">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="0XX-Xv-zGC"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="P2d-UK-TSj" id="ny7-ei-TS8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ga1-cH-RKW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1446" y="-82"/>
+        </scene>
+        <!--Sel tipo even view Controller-->
+        <scene sceneID="k3D-Au-A3q">
+            <objects>
+                <viewController id="GiS-pX-fgZ" customClass="sel_tipo_even_viewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F9v-Z2-ef1">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_ipad.png" id="Jec-rl-5Iv">
+                                <rect key="frame" x="0.0" y="-94" width="768" height="1024"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="L1v-RR-JjO">
+                                <rect key="frame" x="454" y="494" width="230" height="275"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="ipad_directorio.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="4x3-Eu-zKy" kind="push" id="G2F-n4-bss"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2c8-gr-8Jw">
+                                <rect key="frame" x="94" y="181" width="210" height="280"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="ipad_transmisibles.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fsi-Ah-QGD" kind="push" identifier="transbleEventoSegue" id="rZs-cT-kU3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4cf-4Q-BZv">
+                                <rect key="frame" x="454" y="181" width="230" height="280"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="ipad_causa_externa.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fsi-Ah-QGD" kind="push" identifier="causaExtEventoSegue" id="JPm-GI-lwZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="WEF-Lv-FXd">
+                                <rect key="frame" x="84" y="494" width="230" height="280"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="ipad_no_transmisibles.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fsi-Ah-QGD" kind="push" identifier="noTransbleEventoSegue" id="cZB-a9-FX8"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="txt_eventos_notificacion_obligatoria_txt.png" id="707-al-D0J">
+                                <rect key="frame" x="73" y="20" width="620" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" prompt="Seleccionar Tipo de Evento" id="lMF-dQ-XVc">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="Xtt-zd-S93"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="RNm-oW-LJQ">
+                            <connections>
+                                <segue destination="Ftq-xr-CqJ" kind="push" identifier="busqRapidaEventoSegue" id="yFO-MT-87R"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wAc-ZK-TNI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1473" y="-2225"/>
+        </scene>
+        <!--Busqueda Rapida View Controller-->
+        <scene sceneID="04a-Ju-gdS">
+            <objects>
+                <viewController id="Ftq-xr-CqJ" customClass="busquedaRapida_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ezn-x6-IYv">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_ipad.png" id="OYN-3d-EDJ">
+                                <rect key="frame" x="0.0" y="-94" width="768" height="1024"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre del Evento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xdd-vH-jMP">
+                                <rect key="frame" x="20" y="20" width="197" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" id="QAX-iN-v5D">
+                                <rect key="frame" x="20" y="58" width="728" height="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Fxt-ja-XGx">
+                                <rect key="frame" x="20" y="121" width="728" height="660"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="hdr-mX-Q3H">
+                                        <rect key="frame" x="0.0" y="22" width="728" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="708" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <segue destination="E3i-Nj-pDp" kind="push" identifier="verEventoSegue" id="2bA-S1-E1k"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Ftq-xr-CqJ" id="L8n-mH-yJG"/>
+                                    <outlet property="delegate" destination="Ftq-xr-CqJ" id="hHv-xu-agJ"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" prompt="Busqueda Rapida de Evento" id="EbC-O4-zMq">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="EOJ-uk-qZA"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tablev_listaEventos" destination="Fxt-ja-XGx" id="NZw-bY-ScW"/>
+                        <outlet property="textv_nombreEvento" destination="QAX-iN-v5D" id="rwd-we-EGi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l2Y-rE-iVf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3277" y="-132"/>
+        </scene>
+        <!--Sel nom even view Controller - ColombiaVigilaSalud -->
+        <scene sceneID="pyH-Ir-jgQ">
+            <objects>
+                <viewController id="fsi-Ah-QGD" customClass="sel_nom_even_viewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DBH-aY-mod">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_ipad.png" id="jcN-Vx-M47">
+                                <rect key="frame" x="0.0" y="-94" width="768" height="1024"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Ck0-rN-lz8">
+                                <rect key="frame" x="-1" y="316" width="768" height="440"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="A5X-JX-Aw1">
+                                        <rect key="frame" x="0.0" y="22" width="768" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="748" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <segue destination="E3i-Nj-pDp" kind="push" identifier="verEventoSegue" id="wYT-2d-JD5"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="fsi-Ah-QGD" id="6Bz-4x-KcE"/>
+                                    <outlet property="delegate" destination="fsi-Ah-QGD" id="9zv-tm-KhE"/>
+                                </connections>
+                            </tableView>
+                            <pickerView contentMode="scaleToFill" id="XrY-tA-zDh">
+                                <rect key="frame" x="-1" y="44" width="768" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="fsi-Ah-QGD" id="Uai-wY-kCs"/>
+                                    <outlet property="delegate" destination="fsi-Ah-QGD" id="HTE-uw-9E8"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre del Evento" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZBI-Pw-01M">
+                                <rect key="frame" x="20" y="276" width="185" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subgrupo del Evento" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ssu-ud-6wr">
+                                <rect key="frame" x="20" y="12" width="220" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" id="SVd-jb-Mfa">
+                                <rect key="frame" x="218" y="272" width="530" height="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="ColombiaVigilaSalud " prompt="Seleccionar Evento" id="dBE-kX-KX3">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="YA6-z1-4Wt"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="pck_listaSubgrupos" destination="XrY-tA-zDh" id="3nG-w0-Pmm"/>
+                        <outlet property="t_nombreEvento" destination="SVd-jb-Mfa" id="y9E-7x-3gP"/>
+                        <outlet property="tv_listaEventos" destination="Ck0-rN-lz8" id="hFX-38-Xpy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xrv-wg-zTJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3277" y="-3743"/>
+        </scene>
+        <!--Menu Evento view Controller-->
+        <scene sceneID="D2M-SH-aCm">
+            <objects>
+                <viewController id="E3i-Nj-pDp" customClass="menuEvento_viewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9gY-Pa-aJm">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_ipad.png" id="7PU-tJ-Wgh">
+                                <rect key="frame" x="0.0" y="-94" width="768" height="1024"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Y1W-iz-PIB">
+                                <rect key="frame" x="103" y="200" width="180" height="240"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="ipad_generalidades_evento.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="jte-Zm-ld5" kind="push" identifier="verGeneralidadesSegue" id="Ws4-nr-Pbh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7Ro-Aa-PrC">
+                                <rect key="frame" x="500" y="200" width="180" height="240"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="ipad_acciones_de_control.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DFR-vw-dlh" kind="push" identifier="accControlSegue" id="fAD-78-JvC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="chY-3a-1Eh">
+                                <rect key="frame" x="103" y="489" width="180" height="240"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="ipad_apoyo_diagnostico.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="C0K-Ya-6I4" kind="push" identifier="apoyoDiagSegue" id="hSt-zG-Mod"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4pW-iu-rbY">
+                                <rect key="frame" x="500" y="489" width="180" height="240"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="ipad_diagnostico.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="TlQ-8J-STy" kind="push" identifier="diagDiferencialSegue" id="41Y-q8-qA4"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="m7N-Oc-KlG">
+                                <rect key="frame" x="324" y="533" width="146" height="215"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="informacion_completa.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0Vt-nC-QKL" kind="push" identifier="infCompletaSegue" id="1hu-6F-4Uf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre del Evento:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="88M-g5-hyr">
+                                <rect key="frame" x="20" y="20" width="728" height="40"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" red="0.40000003579999999" green="0.75686281919999998" blue="0.80392163989999998" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Evento" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fjk-Bb-QsT">
+                                <rect key="frame" x="20" y="58" width="728" height="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" prompt="Ver Evento" id="OYF-o4-gLF">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="czJ-qr-aTf"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="t_nomEvento" destination="Fjk-Bb-QsT" id="xmW-tK-EU4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kkn-iQ-fjT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3277" y="-2209"/>
+        </scene>
+        <!--Generalidades View Controller-->
+        <scene sceneID="79z-g9-WVh">
+            <objects>
+                <viewController id="jte-Zm-ld5" customClass="generalidades_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="miw-wh-ue7">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_ipad.png" id="UKa-m5-FeD">
+                                <rect key="frame" x="0.0" y="-94" width="773" height="1024"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre del Evento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gK4-H7-Fdk">
+                                <rect key="frame" x="20" y="20" width="728" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" red="0.40000003579999999" green="0.75686281919999998" blue="0.80392163989999998" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="5" editable="NO" id="sBJ-3h-ZTJ">
+                                <rect key="frame" x="20" y="136" width="728" height="650"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Evento" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RbV-fM-GYl">
+                                <rect key="frame" x="20" y="58" width="728" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" prompt="Generalidades del Evento" id="XCS-Ot-fUu">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="I9F-zq-4e6"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="MQr-C7-0sf">
+                            <connections>
+                                <action selector="shareButtonOnClick:" destination="jte-Zm-ld5" id="7Eb-22-PrB"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="sBJ-3h-ZTJ" id="AZo-0H-zq3"/>
+                        <outlet property="tituloEvento" destination="RbV-fM-GYl" id="0ds-ll-QyI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hLh-FF-Pqz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5479" y="-5376"/>
+        </scene>
+        <!--Diag Diferencial View Controller-->
+        <scene sceneID="xgE-m9-9Zn">
+            <objects>
+                <viewController id="TlQ-8J-STy" customClass="diagDiferencial_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ovP-Gf-EHz">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_ipad.png" id="dvy-HO-Uge">
+                                <rect key="frame" x="0.0" y="-94" width="768" height="1024"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre del Evento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zbK-1c-g5S">
+                                <rect key="frame" x="20" y="20" width="716" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" red="0.40000003579999999" green="0.75686281919999998" blue="0.80392163989999998" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="Hwf-yb-Dbg">
+                                <rect key="frame" x="20" y="136" width="728" height="650"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Evento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6TF-PI-KM4">
+                                <rect key="frame" x="20" y="58" width="728" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" prompt="Diagnostico Diferencial " id="Ico-gb-6A7">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="K3O-Zi-ggP"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="t8q-jO-6af">
+                            <connections>
+                                <action selector="shareButtonOnClick:" destination="TlQ-8J-STy" id="kLd-dz-JXl"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="Hwf-yb-Dbg" id="l5B-sE-pLy"/>
+                        <outlet property="tituloEvento" destination="6TF-PI-KM4" id="thH-4O-CdN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bfE-i5-hPb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5455" y="1182"/>
+        </scene>
+        <!--Apoyo Diag View Controller-->
+        <scene sceneID="zGj-ji-OOV">
+            <objects>
+                <viewController id="C0K-Ya-6I4" customClass="apoyoDiag_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VkL-qS-h4d">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_ipad.png" id="VXE-eF-VOX">
+                                <rect key="frame" x="0.0" y="-94" width="768" height="1024"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre del Evento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UyD-l4-yMU">
+                                <rect key="frame" x="20" y="20" width="728" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" red="0.40000003579999999" green="0.75686281919999998" blue="0.80392163989999998" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="YQL-XJ-XQU">
+                                <rect key="frame" x="20" y="140" width="728" height="650"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Evento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LSD-NR-tlo">
+                                <rect key="frame" x="20" y="58" width="728" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" prompt="Apoyo Diagnostico" id="nf6-I7-OYx">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="ZrY-Td-x3f"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="UEU-t1-H6G">
+                            <connections>
+                                <action selector="shareButtonOnClick:" destination="C0K-Ya-6I4" id="mVl-nz-XMd"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="YQL-XJ-XQU" id="L34-ib-SQs"/>
+                        <outlet property="tituloEvento" destination="LSD-NR-tlo" id="L5X-N1-bzY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kaE-cJ-Gd5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5463" y="-132"/>
+        </scene>
+        <!--Acciones Control View Controller-->
+        <scene sceneID="KN1-WM-pmU">
+            <objects>
+                <viewController id="DFR-vw-dlh" customClass="accionesControl_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rnv-C6-AlJ">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_ipad.png" id="adi-49-lwX">
+                                <rect key="frame" x="0.0" y="-94" width="768" height="1024"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre del Evento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EgC-Jp-cFo">
+                                <rect key="frame" x="20" y="20" width="728" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" red="0.40000003579999999" green="0.75686281919999998" blue="0.80392163989999998" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Evento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Gzb-JC-GBd">
+                                <rect key="frame" x="20" y="58" width="728" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="yQX-gT-0Da">
+                                <rect key="frame" x="20" y="136" width="728" height="580"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" link="YES"/>
+                                </accessibility>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="DGX-17-5Z2">
+                                <rect key="frame" x="159" y="733" width="450" height="50"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <state key="normal" title="Directorio Entidades Sivigila">
+                                    <color key="titleColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="4x3-Eu-zKy" kind="push" id="4Zc-63-Kdf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" prompt="Acciones de Control " id="jsY-dx-pZh">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="u2F-vH-5Cj"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="UTB-Bq-h3j">
+                            <connections>
+                                <action selector="shareButtonOnClick:" destination="DFR-vw-dlh" id="TqC-On-J6M"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="yQX-gT-0Da" id="5N9-kg-UP9"/>
+                        <outlet property="tituloEvento" destination="Gzb-JC-GBd" id="bEK-Kk-x6q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zb9-Ax-wpk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5463" y="-2209"/>
+        </scene>
+        <!--Completo View Controller-->
+        <scene sceneID="SdH-Af-5D0">
+            <objects>
+                <viewController id="0Vt-nC-QKL" customClass="completo_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bM8-rW-CFm">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_ipad.png" id="0xD-SM-6Pt">
+                                <rect key="frame" x="0.0" y="-94" width="768" height="1024"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre del Evento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="c4E-Rt-9dC">
+                                <rect key="frame" x="20" y="20" width="728" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" red="0.40000003579999999" green="0.75686281919999998" blue="0.80392163989999998" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="Rze-Gv-rdD">
+                                <rect key="frame" x="20" y="136" width="728" height="650"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Evento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oUt-ig-rQ4">
+                                <rect key="frame" x="20" y="58" width="728" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" prompt="Informacion Completa" id="8is-U2-vWP">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="AhX-B9-XUH"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="k96-CF-AZn">
+                            <connections>
+                                <action selector="shareButtonOnClick:" destination="0Vt-nC-QKL" id="5Um-ze-jjI"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="Rze-Gv-rdD" id="UoT-bH-k0Z"/>
+                        <outlet property="tituloEvento" destination="oUt-ig-rQ4" id="Iux-Lq-uYX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PyC-kB-kT5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5479" y="-3847"/>
+        </scene>
+        <!--Texto Iinicial View Controller - Colombia SiVigila-->
+        <scene sceneID="GwP-6Z-Yvt">
+            <objects>
+                <viewController id="FPN-he-dix" customClass="textoIinicial_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jZP-2b-Suj">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_ipad.png" id="Lsh-Db-fJr">
+                                <rect key="frame" x="0.0" y="-94" width="768" height="1024"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" id="Bq5-Cw-sRS">
+                                <rect key="frame" x="20" y="27" width="728" height="761"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Introduccion a Sivigila" id="HCw-QB-XUC">
+                        <barButtonItem key="rightBarButtonItem" title="Continuar" id="LSM-SY-f7c">
+                            <connections>
+                                <segue destination="d7N-nh-YhZ" kind="push" id="e0R-yZ-hEn"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="Bq5-Cw-sRS" id="Kq3-o9-rda"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NBw-i6-DAO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="331" y="-3743"/>
+        </scene>
+        <!--Generalidades Sivigila view Controller-->
+        <scene sceneID="Zme-tJ-VrK">
+            <objects>
+                <viewController id="VjL-Zg-6KR" customClass="generalidadesSivigila_viewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wet-Ja-87K">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_ipad.png" id="HhC-vW-8pu">
+                                <rect key="frame" x="0.0" y="-94" width="768" height="1024"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VGb-nM-TX0">
+                                <rect key="frame" x="91" y="90" width="210" height="280"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="ipad_generalidades_generalidades.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="02b-CR-dX6" kind="push" identifier="verGeneralidadesSegue" id="3qo-rh-Xxk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fns-ns-GQY">
+                                <rect key="frame" x="482" y="90" width="210" height="280"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Button" image="ipad_actores_responsables.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vqJ-EN-v6O" kind="push" id="eeS-jS-ci5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="oBM-ra-7HQ">
+                                <rect key="frame" x="91" y="465" width="210" height="280"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="ipad_flujo_informacion.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="02b-CR-dX6" kind="push" identifier="flujoControlSegue" id="Dge-bu-Qcx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Yo0-Sq-0AE">
+                                <rect key="frame" x="482" y="465" width="210" height="280"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Button" image="ipad_conceptos_claves.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="02b-CR-dX6" kind="push" identifier="conceptosClaveSegue" id="P7r-m7-30o"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" prompt="Generalidades Sivigila" id="5t0-PG-UkR">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="IHO-GJ-aOi"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="Av7-s2-asv">
+                            <connections>
+                                <segue destination="mPd-dX-kmI" kind="push" identifier="" id="PYp-GF-IMD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YuH-zJ-mSx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="-132"/>
+        </scene>
+        <!--Busq Rapida Palabras Clav View Controller-->
+        <scene sceneID="J1j-tF-6nF">
+            <objects>
+                <viewController id="mPd-dX-kmI" customClass="busqRapidaPalabrasClav_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KTQ-CV-Lq0">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_ipad.png" id="osf-2Q-Va1">
+                                <rect key="frame" x="0.0" y="-94" width="768" height="1024"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="nUZ-OD-ekW">
+                                <rect key="frame" x="20" y="410" width="733" height="360"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="0.99877913569999999" green="1" blue="0.98264819240000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Palabra Clave Sivigila" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rLp-DE-1p5">
+                                <rect key="frame" x="20" y="10" width="227" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Significado" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YAB-N9-toK">
+                                <rect key="frame" x="20" y="391" width="205" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" id="YYm-Od-FKu">
+                                <rect key="frame" x="20" y="39" width="728" height="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="BMc-dz-0SP">
+                                <rect key="frame" x="20" y="103" width="728" height="264"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="Cell" id="IZZ-7x-tBg">
+                                        <rect key="frame" x="0.0" y="22" width="728" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="728" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="mPd-dX-kmI" id="hzw-RV-Csm"/>
+                                    <outlet property="delegate" destination="mPd-dX-kmI" id="gEy-mp-9jp"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" prompt="Busqueda Palabras Clave" id="VWV-DG-XPL">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="ynv-et-b1r"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="lbl_significado" destination="YAB-N9-toK" id="hKy-nn-d0C"/>
+                        <outlet property="tablev_respBusq" destination="BMc-dz-0SP" id="D6P-a6-7yF"/>
+                        <outlet property="textv_nombreGenSiv" destination="YYm-Od-FKu" id="CyL-zH-BRq"/>
+                        <outlet property="txt_descripcion" destination="nUZ-OD-ekW" id="9XK-Gu-H7J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="55v-Ai-4Gb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="1210"/>
+        </scene>
+        <!--Actores View Controller-->
+        <scene sceneID="ImC-BN-lBF">
+            <objects>
+                <viewController id="vqJ-EN-v6O" customClass="Actores_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ShG-mU-phN">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="actores_ipad.png" id="6Yg-EC-7bf">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="930"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" prompt="Actores y Responsables" id="her-0x-sbg">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="qYR-UX-lDF"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ezk-Da-x1S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1212" y="1241"/>
+        </scene>
+        <!--Gen Sivigila View Controller-->
+        <scene sceneID="985-QE-HVW">
+            <objects>
+                <viewController id="02b-CR-dX6" customClass="genSivigila_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aFB-L1-SIW">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_ipad.png" id="TuK-Rl-tuv">
+                                <rect key="frame" x="0.0" y="-20" width="769" height="1024"/>
+                            </imageView>
+                            <webView contentMode="scaleToFill" id="Ibl-cO-piE">
+                                <rect key="frame" x="20" y="110" width="728" height="674"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtema" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VbJ-29-E2R">
+                                <rect key="frame" x="29" y="110" width="184" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.36490312060000002" green="0.87576013119999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temática Principal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PcK-Xl-32Y">
+                                <rect key="frame" x="25" y="10" width="188" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.36490312060000002" green="0.87576013119999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="qQH-0h-Y9H">
+                                <rect key="frame" x="25" y="240" width="723" height="600"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="9kn-eA-s3Q">
+                                <rect key="frame" x="20" y="42" width="728" height="32"/>
+                                <color key="textColor" red="0.99877913569999999" green="1" blue="0.98264819240000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="showTemaPickerSheet:" destination="02b-CR-dX6" eventType="editingDidBegin" id="8Gy-j6-l5Q"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="aH5-49-3JJ">
+                                <rect key="frame" x="20" y="142" width="728" height="28"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="showSubtemaPickerSheet:" destination="02b-CR-dX6" eventType="editingDidBegin" id="9Z5-Wo-kpO"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" prompt="Titulo Generalidad" id="QhW-Ct-y4z">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="Mja-uu-orH"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="lbl_subtema" destination="VbJ-29-E2R" id="zFH-6J-BUT"/>
+                        <outlet property="textv_descripcion" destination="qQH-0h-Y9H" id="xys-ko-TXf"/>
+                        <outlet property="textv_subtema" destination="aH5-49-3JJ" id="szM-at-qoZ"/>
+                        <outlet property="textv_tematica" destination="9kn-eA-s3Q" id="Tok-ss-EE9"/>
+                        <outlet property="webv_imgFlujoInf" destination="Ibl-cO-piE" id="OLC-Qz-Z3q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hdG-vl-445" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1229" y="-132"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="PzT-Jl-but">
+            <objects>
+                <navigationController id="ojV-Zq-aAl" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Lc3-tg-uyj">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="FPN-he-dix" kind="relationship" relationship="rootViewController" id="16j-BI-pmM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aai-QE-sJU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1080" y="-3743"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="acerca_de_ipad.png" width="766" height="1025"/>
+        <image name="actores_ipad.png" width="761" height="1025"/>
+        <image name="background_ipad.png" width="769" height="1025"/>
+        <image name="informacion_completa.png" width="171" height="251"/>
+        <image name="ipad_acciones_de_control.png" width="205" height="282"/>
+        <image name="ipad_actores_responsables.png" width="207" height="281"/>
+        <image name="ipad_apoyo_diagnostico.png" width="202" height="281"/>
+        <image name="ipad_causa_externa.png" width="236" height="281"/>
+        <image name="ipad_conceptos_claves.png" width="209" height="281"/>
+        <image name="ipad_diagnostico.png" width="206" height="282"/>
+        <image name="ipad_directorio.png" width="206" height="281"/>
+        <image name="ipad_eno.png" width="320" height="281"/>
+        <image name="ipad_flujo_informacion.png" width="207" height="281"/>
+        <image name="ipad_generalidades_evento.png" width="209" height="281"/>
+        <image name="ipad_generalidades_generalidades.png" width="207" height="281"/>
+        <image name="ipad_generalidades_sivigila.png" width="204" height="281"/>
+        <image name="ipad_no_transmisibles.png" width="228" height="282"/>
+        <image name="ipad_transmisibles.png" width="205" height="281"/>
+        <image name="txt_eventos_notificacion_obligatoria_txt.png" width="408" height="95"/>
+    </resources>
+    <classes>
+        <class className="Actores_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Actores_ViewController.h"/>
+        </class>
+        <class className="accionesControl_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/accionesControl_ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="tituloEvento" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="acercaDe_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/acercaDe_ViewController.h"/>
+        </class>
+        <class className="apoyoDiag_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/apoyoDiag_ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="tituloEvento" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="busqRapidaPalabrasClav_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/busqRapidaPalabrasClav_ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="lbl_significado" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="tablev_respBusq" candidateClass="UITableView"/>
+                <relationship kind="outlet" name="textv_nombreGenSiv" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="txt_descripcion" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+        <class className="busquedaRapida_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/busquedaRapida_ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="tablev_listaEventos" candidateClass="UITableView"/>
+                <relationship kind="outlet" name="textv_nombreEvento" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="completo_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/completo_ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="tituloEvento" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="diagDiferencial_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/diagDiferencial_ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="tituloEvento" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="dirTelef_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/dirTelef_ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+        <class className="genSivigila_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/genSivigila_ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="lbl_subtema" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="textv_descripcion" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="textv_subtema" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="textv_tematica" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="webv_imgFlujoInf" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+        <class className="generalidadesSivigila_viewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/generalidadesSivigila_viewController.h"/>
+        </class>
+        <class className="generalidades_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/generalidades_ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="tituloEvento" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="menuEvento_viewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/menuEvento_viewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="t_nomEvento" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="menuPrincipal_viewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/menuPrincipal_viewController.h"/>
+        </class>
+        <class className="sel_nom_even_viewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/sel_nom_even_viewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="pck_listaSubgrupos" candidateClass="UIPickerView"/>
+                <relationship kind="outlet" name="t_nombreEvento" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="tablecell" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="tv_listaEventos" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="sel_tipo_even_viewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/sel_tipo_even_viewController.h"/>
+        </class>
+        <class className="textoIinicial_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/textoIinicial_ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="MV3-gH-HCS"/>
+        <segue reference="rZs-cT-kU3"/>
+        <segue reference="2bA-S1-E1k"/>
+        <segue reference="4Zc-63-Kdf"/>
+        <segue reference="P7r-m7-30o"/>
+    </inferredMetricsTieBreakers>
+</document>

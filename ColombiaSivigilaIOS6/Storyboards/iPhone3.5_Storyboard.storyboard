@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="lPR-0e-hJ8">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Texto Iinicial View Controller - Colombia SiVigila-->
+        <scene sceneID="mbv-OT-QMJ">
+            <objects>
+                <viewController id="3ck-AF-Let" customClass="textoIinicial_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EQQ-vW-w7U">
+                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="N3n-xZ-CrI">
+                                <rect key="frame" x="0.0" y="-31" width="320" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="8mf-Dd-sg8">
+                                <rect key="frame" x="20" y="25" width="280" height="305"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Introduccion a Sivigila" id="fHW-GQ-zQi">
+                        <barButtonItem key="rightBarButtonItem" title="Continuar" id="62N-72-jeu">
+                            <connections>
+                                <segue destination="sFJ-JM-InT" kind="push" id="WUi-sz-Vg4"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="8mf-Dd-sg8" id="l2c-ZW-gT7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1vJ-FO-1wr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2379" y="-5315"/>
+        </scene>
+        <!--Acerca De View Controller - Colombia SiVigila-->
+        <scene sceneID="A56-jT-6eE">
+            <objects>
+                <viewController id="c56-UO-2aa" customClass="acercaDe_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fCR-iU-ioR">
+                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="acerca_de.png" id="5lB-MT-T4k">
+                                <rect key="frame" x="0.0" y="-31" width="320" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Acerca de" id="H8k-V8-mAM">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="mES-vn-boP"/>
+                        <barButtonItem key="rightBarButtonItem" title="Intro" id="cq9-W3-zhk">
+                            <connections>
+                                <segue destination="3ck-AF-Let" kind="push" id="wAa-PQ-RNo"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="okq-p3-cJr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1273" y="-5315"/>
+        </scene>
+        <!--Menu Principal view Controller - Colombia SiVigila-->
+        <scene sceneID="20e-Wp-YOF">
+            <objects>
+                <viewController id="sFJ-JM-InT" customClass="menuPrincipal_viewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UwR-g4-42I">
+                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="xp6-No-sCh">
+                                <rect key="frame" x="0.0" y="-31" width="320" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IkG-Ly-B0x">
+                                <rect key="frame" x="88" y="194" width="145" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Button" image="eno.png"/>
+                                <connections>
+                                    <segue destination="Isr-XD-rEk" kind="push" identifier="enosSegue" id="80d-1X-lEj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Xj8-V1-YWF">
+                                <rect key="frame" x="108" y="48" width="105" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Button" image="generalidades_sivigila.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fA0-4y-X3w" kind="push" identifier="generalidadesSegue" id="Fkh-ai-ae3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Menu Principal" id="vzp-sq-v3v">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="VhZ-0I-rA2"/>
+                        <barButtonItem key="leftBarButtonItem" title="Acerca" id="n9c-LN-ePP">
+                            <connections>
+                                <segue destination="c56-UO-2aa" kind="push" id="iCs-Qt-Z1v"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="bLW-Ua-nBa">
+                            <connections>
+                                <action selector="updateDatabaseButtonOnClick:" destination="sFJ-JM-InT" id="Z12-M3-AHo"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r5u-Hb-Zli" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1789" y="-4619"/>
+        </scene>
+        <!--Dir Telef View Controller - Colombia SiVigila-->
+        <scene sceneID="e8w-3e-KMk">
+            <objects>
+                <viewController id="nrd-SF-iDx" customClass="dirTelef_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cCJ-Hy-gsC">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="iUc-fm-zw0">
+                                <rect key="frame" x="0.0" y="-31" width="321" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <pickerView contentMode="scaleToFill" id="4i5-n0-gBB">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="nrd-SF-iDx" id="fZ5-7E-Y5x"/>
+                                    <outlet property="delegate" destination="nrd-SF-iDx" id="BeQ-b9-vge"/>
+                                </connections>
+                            </pickerView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="Pzm-OL-IJU">
+                                <rect key="frame" x="16" y="170" width="289" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut </string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Directorio" id="lYe-0t-aC2">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="6uL-cP-ol9"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="Pzm-OL-IJU" id="BPH-bk-Syi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NnV-Y7-LhL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2379" y="-3622"/>
+        </scene>
+        <!--Generalidades Sivigila view Controller - Colombia SiVigila-->
+        <scene sceneID="Lvp-Dl-UYS">
+            <objects>
+                <viewController id="fA0-4y-X3w" customClass="generalidadesSivigila_viewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xN3-Az-N03">
+                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="AOZ-DM-CS1">
+                                <rect key="frame" x="0.0" y="-31" width="320" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ecy-Df-SbG">
+                                <rect key="frame" x="31" y="20" width="110" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="generalidades_generalidades.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lrc-Rt-iOQ" kind="push" identifier="verGeneralidadesSegue" id="2Ph-EY-Ws7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pnt-rL-bxn">
+                                <rect key="frame" x="180" y="20" width="110" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Button" image="actores_responsables.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Kyf-Ff-EI0" kind="push" id="Yiv-wN-7We"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6ce-Fs-F6f">
+                                <rect key="frame" x="31" y="192" width="110" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="flujo_informacion.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lrc-Rt-iOQ" kind="push" identifier="flujoControlSegue" id="8Qn-sa-e7B"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Kz7-6X-8he">
+                                <rect key="frame" x="180" y="192" width="110" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Button" image="conceptos_claves.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lrc-Rt-iOQ" kind="push" identifier="conceptosClaveSegue" id="4Ef-iH-Go1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Generalidades Sivigila" id="nd2-Id-Fi8">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="Ja0-tG-WwV"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="b1w-oU-KpQ">
+                            <connections>
+                                <segue destination="yQn-6h-4dG" kind="push" identifier="" id="vD7-um-fsl"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XiH-ZS-k3k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1789" y="-3622"/>
+        </scene>
+        <!--Busq Rapida Palabras Clav View Controller - Colombia SiVigila-->
+        <scene sceneID="XDT-Nz-PZN">
+            <objects>
+                <viewController id="yQn-6h-4dG" customClass="busqRapidaPalabrasClav_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pjH-DU-Saz">
+                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="LtG-rJ-sZK">
+                                <rect key="frame" x="0.0" y="-31" width="320" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Palabra Clave Sivigila" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gyx-Jq-HmJ">
+                                <rect key="frame" x="16" y="0.0" width="155" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Significado" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xfS-y8-NzD">
+                                <rect key="frame" x="20" y="191" width="155" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" id="vD7-eu-EgN">
+                                <rect key="frame" x="20" y="27" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="40" sectionHeaderHeight="22" sectionFooterHeight="22" id="hZj-PS-FRg">
+                                <rect key="frame" x="18" y="64" width="280" height="120"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="Cell" id="oil-7l-21b">
+                                        <rect key="frame" x="0.0" y="22" width="280" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="280" height="39"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="yQn-6h-4dG" id="hBg-oJ-Lfq"/>
+                                    <outlet property="delegate" destination="yQn-6h-4dG" id="mgP-Md-pUZ"/>
+                                </connections>
+                            </tableView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="hDl-15-b9E">
+                                <rect key="frame" x="20" y="209" width="280" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="0.99877913569999999" green="1" blue="0.98264819240000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Busqueda Palabras Clave" id="hOo-gp-zoZ">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="puU-Yg-yRG"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="lbl_significado" destination="xfS-y8-NzD" id="neY-zJ-aaq"/>
+                        <outlet property="tablev_respBusq" destination="hZj-PS-FRg" id="0Kd-wk-2z3"/>
+                        <outlet property="textv_nombreGenSiv" destination="vD7-eu-EgN" id="SJa-Ri-YQb"/>
+                        <outlet property="txt_descripcion" destination="hDl-15-b9E" id="qmq-hb-gLL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OeI-iN-nRr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1789" y="-2818"/>
+        </scene>
+        <!--Actores View Controller-->
+        <scene sceneID="PA7-kj-agV">
+            <objects>
+                <viewController id="Kyf-Ff-EI0" customClass="Actores_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PWz-kG-ZoW">
+                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="actores.png" id="pfF-w7-nMi">
+                                <rect key="frame" x="0.0" y="-31" width="320" height="417"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" prompt="Actores y Responsables" id="nYH-vQ-tek">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="Y1S-MN-Bfx"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lcq-2Y-Ug9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1205" y="-2818"/>
+        </scene>
+        <!--Gen Sivigila View Controller - Colombia SiVigila-->
+        <scene sceneID="RoQ-EJ-qPh">
+            <objects>
+                <viewController id="lrc-Rt-iOQ" customClass="genSivigila_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KEU-ns-6Db">
+                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="fVQ-GG-wfv">
+                                <rect key="frame" x="0.0" y="-74" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <webView contentMode="scaleToFill" id="fgR-sw-Zy6">
+                                <rect key="frame" x="20" y="76" width="280" height="252"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </webView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtema" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZEN-6c-5vW">
+                                <rect key="frame" x="20" y="63" width="162" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.36490312060000002" green="0.87576013119999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temática Principal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="s1G-aj-xW4">
+                                <rect key="frame" x="20" y="3" width="162" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.36490312060000002" green="0.87576013119999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="lpP-ij-Jvx">
+                                <rect key="frame" x="20" y="139" width="280" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="JPl-Au-Xmt" customClass="nonSelectableTextField">
+                                <rect key="frame" x="20" y="25" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="selectPickerValueInTextField:" destination="lrc-Rt-iOQ" eventType="touchUpInside" id="wvW-pT-vzj"/>
+                                    <action selector="showTemaPickerSheet:" destination="lrc-Rt-iOQ" eventType="editingDidBegin" id="6da-Ox-HE6"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="fIT-U0-29k" customClass="nonSelectableTextField">
+                                <rect key="frame" x="20" y="85" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="showSubtemaPickerSheet:" destination="lrc-Rt-iOQ" eventType="editingDidBegin" id="5xN-Vq-Usc"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Titulo Generalidad" id="KtX-dI-NKF">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="ThA-G0-mwh"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="lbl_subtema" destination="ZEN-6c-5vW" id="r9Z-hP-Lj1"/>
+                        <outlet property="textv_descripcion" destination="lpP-ij-Jvx" id="Rix-2Z-yM8"/>
+                        <outlet property="textv_subtema" destination="fIT-U0-29k" id="Ovx-8b-XgO"/>
+                        <outlet property="textv_tematica" destination="JPl-Au-Xmt" id="9v0-NB-oDP"/>
+                        <outlet property="webv_imgFlujoInf" destination="fgR-sw-Zy6" id="krj-8b-zzz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KaJ-aC-H7G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1205" y="-3622"/>
+        </scene>
+        <!--Sel tipo even view Controller - Colombia SiVigila-->
+        <scene sceneID="YB3-9X-LEr">
+            <objects>
+                <viewController id="Isr-XD-rEk" customClass="sel_tipo_even_viewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iLW-Bg-8bm">
+                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="fmH-14-MnT">
+                                <rect key="frame" x="0.0" y="-31" width="320" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nhl-iI-PjD">
+                                <rect key="frame" x="33" y="67" width="100" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="transmisibles.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="n2Q-Nq-Geo" kind="push" identifier="transbleEventoSegue" id="em4-ug-YbZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PaU-VB-dff">
+                                <rect key="frame" x="178" y="67" width="100" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="causa_externa.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="n2Q-Nq-Geo" kind="push" identifier="causaExtEventoSegue" id="Eef-7Q-sEf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="1IU-Pb-BTx">
+                                <rect key="frame" x="33" y="209" width="100" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="no_transmisibles.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="n2Q-Nq-Geo" kind="push" identifier="noTransbleEventoSegue" id="LRT-Cv-uEs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gZl-qa-Ecu">
+                                <rect key="frame" x="178" y="207" width="100" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="directorio.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nrd-SF-iDx" kind="push" id="AO4-dh-jhr"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="txt_eventos_notificacion_obligatoria_txt.png" id="xz9-Oa-g1k">
+                                <rect key="frame" x="33" y="9" width="255" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Seleccionar Tipo de Evento" id="tyG-2j-qlg">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="Lgl-2a-kKp"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="0TJ-aM-wp3">
+                            <connections>
+                                <segue destination="tQt-Cd-JfN" kind="push" identifier="busqRapidaEventoSegue" id="p1B-Lz-1F6"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jvQ-Ze-2c4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1273" y="-4619"/>
+        </scene>
+        <!--Busqueda Rapida View Controller - Colombia SiVigila-->
+        <scene sceneID="JMr-IL-BTD">
+            <objects>
+                <viewController id="tQt-Cd-JfN" customClass="busquedaRapida_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="30y-yh-qbx">
+                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="h65-yK-FZ2">
+                                <rect key="frame" x="0.0" y="-31" width="320" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre del Evento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="c6C-qe-KmL">
+                                <rect key="frame" x="20" y="5" width="129" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" id="c7E-QV-WPo">
+                                <rect key="frame" x="20" y="28" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="40" sectionHeaderHeight="22" sectionFooterHeight="22" id="ir0-c2-WoR">
+                                <rect key="frame" x="16" y="87" width="280" height="240"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="kVn-rQ-hor">
+                                        <rect key="frame" x="0.0" y="22" width="280" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="260" height="39"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <segue destination="0zO-hC-Yvd" kind="push" identifier="verEventoSegue" id="etv-Tk-gTf"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="tQt-Cd-JfN" id="1g7-LU-XY5"/>
+                                    <outlet property="delegate" destination="tQt-Cd-JfN" id="CGA-7a-nq7"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Busqueda Rapida de Evento" id="E1f-ex-fnF">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="Fer-z0-aA2"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tablev_listaEventos" destination="ir0-c2-WoR" id="y5c-aL-Xf3"/>
+                        <outlet property="textv_nombreEvento" destination="c7E-QV-WPo" id="KNA-Pm-CJ7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bvx-Bq-sfA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-103" y="-3622"/>
+        </scene>
+        <!--Sel nom even view Controller - Colombia SiVigila-->
+        <scene sceneID="tNq-mM-SbR">
+            <objects>
+                <viewController id="n2Q-Nq-Geo" customClass="sel_nom_even_viewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ryO-HO-uhc">
+                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="V34-CF-J5y">
+                                <rect key="frame" x="0.0" y="-31" width="320" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <pickerView contentMode="scaleToFill" id="82M-4D-r6C">
+                                <rect key="frame" x="0.0" y="25" width="320" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="n2Q-Nq-Geo" id="XLR-RX-eiA"/>
+                                    <outlet property="delegate" destination="n2Q-Nq-Geo" id="3q4-1D-vNl"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre del Evento" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wGf-MA-MWx">
+                                <rect key="frame" x="13" y="190" width="151" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.36490312060000002" green="0.87576013119999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subgrupo del Evento" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ynx-sQ-ZAS">
+                                <rect key="frame" x="13" y="1" width="162" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.36490312060000002" green="0.87576013119999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="40" sectionHeaderHeight="22" sectionFooterHeight="22" id="3mB-iR-5t7">
+                                <rect key="frame" x="0.0" y="216" width="320" height="120"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" rowHeight="40" id="shN-wN-eaS">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="39"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <segue destination="0zO-hC-Yvd" kind="push" identifier="verEventoSegue" id="nmi-s4-cFQ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="n2Q-Nq-Geo" id="58D-5M-MYU"/>
+                                    <outlet property="delegate" destination="n2Q-Nq-Geo" id="BRd-Dz-W4v"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Seleccionar Evento" id="RNT-aE-V9W">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="Kwz-p4-Hq5"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="pck_listaSubgrupos" destination="82M-4D-r6C" id="k8W-eu-eua"/>
+                        <outlet property="tv_listaEventos" destination="3mB-iR-5t7" id="Hz7-hc-1i0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="697-BZ-iFO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-103" y="-5315"/>
+        </scene>
+        <!--Menu Evento view Controller - Colombia SiVigila-->
+        <scene sceneID="5kT-Qd-SWn">
+            <objects>
+                <viewController id="0zO-hC-Yvd" customClass="menuEvento_viewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eEI-bY-GBH">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="qHc-Sf-OPN">
+                                <rect key="frame" x="0.0" y="-31" width="321" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Y7n-vr-dub">
+                                <rect key="frame" x="29" y="65" width="100" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Button" image="generalidades_evento.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="eWq-xg-Yxa" kind="push" identifier="verGeneralidadesSegue" id="9pS-Lu-XDA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ld1-Gj-wdn">
+                                <rect key="frame" x="190" y="65" width="100" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Button" image="acciones_de_control.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="chw-PU-kVa" kind="push" identifier="accControlSegue" id="VOS-Rm-upn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MXY-md-rgT">
+                                <rect key="frame" x="29" y="212" width="100" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Button" image="apoyo_diagnostico.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Cbv-5X-w7J" kind="push" identifier="apoyoDiagSegue" id="rda-Vw-PnG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="etl-rI-1hj">
+                                <rect key="frame" x="190" y="212" width="100" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Button" image="diagnostico_diferencial.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="By1-5k-we8" kind="push" identifier="diagDiferencialSegue" id="0Ii-qP-qKf"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="YIX-al-ja7">
+                                <rect key="frame" x="140" y="284" width="40" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Button" image="informacion_completa.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Rjn-TM-tKR" kind="push" identifier="infCompletaSegue" id="bEv-oO-qe8"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre del Evento:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RMT-aP-X1n">
+                                <rect key="frame" x="93" y="5" width="133" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.36490312060000002" green="0.87576013119999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Evento" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IZB-ZS-Pf9">
+                                <rect key="frame" x="20" y="26" width="280" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Ver Evento" id="PPP-8L-clQ">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="2j1-rc-6ho"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="t_nomEvento" destination="IZB-ZS-Pf9" id="6gA-Dy-vn3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="13K-dT-MZp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-103" y="-4619"/>
+        </scene>
+        <!--Generalidades View Controller - Colombia SiVigila-->
+        <scene sceneID="fNf-OQ-qTr">
+            <objects>
+                <viewController id="eWq-xg-Yxa" customClass="generalidades_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ciu-dS-d74">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="IEc-ff-OuP">
+                                <rect key="frame" x="0.0" y="-31" width="321" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre del Evento" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oJg-7W-uJh">
+                                <rect key="frame" x="96" y="5" width="128" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.36490312060000002" green="0.87576013119999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="5" editable="NO" id="clJ-UQ-K2o">
+                                <rect key="frame" x="20" y="57" width="280" height="275"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Evento" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IkR-j5-Hem">
+                                <rect key="frame" x="20" y="26" width="280" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Generalidades del Evento" id="rNG-NG-ezQ">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="sNU-y5-wWZ"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="PeW-ok-7ZR">
+                            <connections>
+                                <action selector="shareButtonOnClick:" destination="eWq-xg-Yxa" id="d3f-Xe-kyF"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="clJ-UQ-K2o" id="iL7-mn-gFP"/>
+                        <outlet property="tituloEvento" destination="IkR-j5-Hem" id="hji-IX-3gM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ad2-N7-6pw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="945" y="-6037"/>
+        </scene>
+        <!--Diag Diferencial View Controller - Colombia SiVigila-->
+        <scene sceneID="O8j-N6-wHR">
+            <objects>
+                <viewController id="By1-5k-we8" customClass="diagDiferencial_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="raZ-hk-6HO">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="69N-69-Wjf">
+                                <rect key="frame" x="0.0" y="-31" width="321" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre del Evento" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cui-0q-YGT">
+                                <rect key="frame" x="96" y="5" width="128" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.36490312060000002" green="0.87576013119999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="Afg-eo-dtH">
+                                <rect key="frame" x="20" y="57" width="280" height="275"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Evento" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="s9P-TR-KdB">
+                                <rect key="frame" x="20" y="26" width="280" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Diagnostico Diferencial " id="T0R-dM-P67">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="fhl-NR-7hJ"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="biz-s2-kkt">
+                            <connections>
+                                <action selector="shareButtonOnClick:" destination="By1-5k-we8" id="h3d-2C-lss"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="Afg-eo-dtH" id="BSs-to-m2F"/>
+                        <outlet property="tituloEvento" destination="s9P-TR-KdB" id="JEG-Yv-G95"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vBV-bF-2jO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="945" y="-2818"/>
+        </scene>
+        <!--Apoyo Diag View Controller - Colombia SiVigila-->
+        <scene sceneID="Wt3-Io-lxp">
+            <objects>
+                <viewController id="Cbv-5X-w7J" customClass="apoyoDiag_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UJJ-bT-ITD">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="1pq-gn-JTD">
+                                <rect key="frame" x="0.0" y="-31" width="321" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre del Evento" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cj3-PI-dOW">
+                                <rect key="frame" x="96" y="5" width="128" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.36490312060000002" green="0.87576013119999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Evento" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="I72-6y-RZc">
+                                <rect key="frame" x="20" y="26" width="280" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="VMc-FM-Rnm">
+                                <rect key="frame" x="20" y="57" width="280" height="275"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Apoyo Diagnostico" id="Vuf-EK-MHd">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="YZb-mc-o64"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="062-3n-W6O">
+                            <connections>
+                                <action selector="shareButtonOnClick:" destination="Cbv-5X-w7J" id="kSP-3R-uWo"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="VMc-FM-Rnm" id="v7t-LE-02q"/>
+                        <outlet property="tituloEvento" destination="I72-6y-RZc" id="ftr-hF-L1g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rFr-g9-4rn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="945" y="-3622"/>
+        </scene>
+        <!--Acciones Control View Controller - Colombia SiVigila-->
+        <scene sceneID="S1b-I7-D9f">
+            <objects>
+                <viewController id="chw-PU-kVa" customClass="accionesControl_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T8g-2S-zNu">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="tCQ-U4-3Ul">
+                                <rect key="frame" x="0.0" y="-31" width="321" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre del Evento" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uNZ-xV-En2">
+                                <rect key="frame" x="96" y="5" width="128" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.36490312060000002" green="0.87576013119999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Evento" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EjQ-Vl-I2f">
+                                <rect key="frame" x="20" y="26" width="280" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bfB-4f-fJf">
+                                <rect key="frame" x="20" y="297" width="280" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Directorio Entidades Sivigila">
+                                    <color key="titleColor" red="0.36490312060000002" green="0.87576013119999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nrd-SF-iDx" kind="push" id="fNe-PG-LBj"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="29g-RV-lcR">
+                                <rect key="frame" x="20" y="57" width="280" height="231"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Acciones de Control " id="9OD-LA-OYb">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="T8y-C1-EE4"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="u9I-BN-JVY">
+                            <connections>
+                                <action selector="shareButtonOnClick:" destination="chw-PU-kVa" id="SPu-QT-vGA"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="29g-RV-lcR" id="ita-NC-y1h"/>
+                        <outlet property="tituloEvento" destination="EjQ-Vl-I2f" id="q6X-yo-bsQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7LC-iI-4bg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="945" y="-5315"/>
+        </scene>
+        <!--Completo View Controller - Colombia SiVigila-->
+        <scene sceneID="Pld-4W-Aeo">
+            <objects>
+                <viewController id="Rjn-TM-tKR" customClass="completo_ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qvo-st-0ms">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="KP1-50-e2z">
+                                <rect key="frame" x="0.0" y="-31" width="321" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre del Evento" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HKF-wW-e2f">
+                                <rect key="frame" x="96" y="5" width="128" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.36490312060000002" green="0.87576013119999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Evento" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6AN-TT-zsP">
+                                <rect key="frame" x="20" y="26" width="280" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="FiI-to-Vcg">
+                                <rect key="frame" x="20" y="57" width="280" height="275"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Informacion Completa" id="wHL-Ah-Jwh">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="20f-se-S30"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="Wrx-BM-UA4">
+                            <connections>
+                                <action selector="shareButtonOnClick:" destination="Rjn-TM-tKR" id="5u6-Ka-aoO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="FiI-to-Vcg" id="Noq-to-e2g"/>
+                        <outlet property="tituloEvento" destination="6AN-TT-zsP" id="b51-LI-q00"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="83g-9y-Vsc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="945" y="-4619"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5YH-DD-0Qh">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RHx-S4-f2F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="lPR-0e-hJ8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lMh-mr-4Zd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="3ck-AF-Let" kind="relationship" relationship="rootViewController" id="6q1-Ek-7Lz"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-3098" y="-5315"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="acciones_de_control.png" width="163" height="216"/>
+        <image name="acerca_de.png" width="321" height="476"/>
+        <image name="actores.png" width="321" height="476"/>
+        <image name="actores_responsables.png" width="161" height="216"/>
+        <image name="apoyo_diagnostico.png" width="161" height="216"/>
+        <image name="background.png" width="321" height="476"/>
+        <image name="causa_externa.png" width="166" height="216"/>
+        <image name="conceptos_claves.png" width="165" height="216"/>
+        <image name="diagnostico_diferencial.png" width="164" height="216"/>
+        <image name="directorio.png" width="165" height="216"/>
+        <image name="eno.png" width="220" height="216"/>
+        <image name="flujo_informacion.png" width="163" height="216"/>
+        <image name="generalidades_evento.png" width="164" height="216"/>
+        <image name="generalidades_generalidades.png" width="165" height="216"/>
+        <image name="generalidades_sivigila.png" width="163" height="216"/>
+        <image name="informacion_completa.png" width="171" height="251"/>
+        <image name="no_transmisibles.png" width="165" height="216"/>
+        <image name="transmisibles.png" width="165" height="216"/>
+        <image name="txt_eventos_notificacion_obligatoria_txt.png" width="408" height="95"/>
+    </resources>
+    <classes>
+        <class className="Actores_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Actores_ViewController.h"/>
+        </class>
+        <class className="accionesControl_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/accionesControl_ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="tituloEvento" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="acercaDe_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/acercaDe_ViewController.h"/>
+        </class>
+        <class className="apoyoDiag_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/apoyoDiag_ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="tituloEvento" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="busqRapidaPalabrasClav_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/busqRapidaPalabrasClav_ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="lbl_significado" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="tablev_respBusq" candidateClass="UITableView"/>
+                <relationship kind="outlet" name="textv_nombreGenSiv" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="txt_descripcion" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+        <class className="busquedaRapida_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/busquedaRapida_ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="tablev_listaEventos" candidateClass="UITableView"/>
+                <relationship kind="outlet" name="textv_nombreEvento" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="completo_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/completo_ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="tituloEvento" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="diagDiferencial_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/diagDiferencial_ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="tituloEvento" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="dirTelef_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/dirTelef_ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+        <class className="genSivigila_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/genSivigila_ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="lbl_subtema" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="textv_descripcion" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="textv_subtema" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="textv_tematica" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="webv_imgFlujoInf" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+        <class className="generalidadesSivigila_viewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/generalidadesSivigila_viewController.h"/>
+        </class>
+        <class className="generalidades_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/generalidades_ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="tituloEvento" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="menuEvento_viewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/menuEvento_viewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="t_nomEvento" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="menuPrincipal_viewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/menuPrincipal_viewController.h"/>
+        </class>
+        <class className="nonSelectableTextField" superclassName="UITextField">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/nonSelectableTextField.h"/>
+        </class>
+        <class className="sel_nom_even_viewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/sel_nom_even_viewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="pck_listaSubgrupos" candidateClass="UIPickerView"/>
+                <relationship kind="outlet" name="t_nombreEvento" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="tablecell" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="tv_listaEventos" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="sel_tipo_even_viewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/sel_tipo_even_viewController.h"/>
+        </class>
+        <class className="textoIinicial_ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/textoIinicial_ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="wAa-PQ-RNo"/>
+        <segue reference="em4-ug-YbZ"/>
+        <segue reference="nmi-s4-cFQ"/>
+        <segue reference="fNe-PG-LBj"/>
+        <segue reference="8Qn-sa-e7B"/>
+    </inferredMetricsTieBreakers>
+</document>

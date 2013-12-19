@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  ColombiaSivigilaIOS6
+//  ColombiaSivigila
 //
-//  Created by Mike on 12/17/13.
+//  Created by Mike on 12/10/13.
 //  Copyright (c) 2013 iPRO. All rights reserved.
 //
 
