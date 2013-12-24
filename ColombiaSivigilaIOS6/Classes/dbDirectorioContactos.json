@@ -1,0 +1,290 @@
+ [
+  {
+  "departamento":"AMAZONAS",
+  "entidad":"Secretaría Departamental de Salud Amazonas",
+  "direccion":"Carrera 11  3-26 Barrio San Antonio",
+  "ciudad":"LETICIA",
+  "email":"sjpulidom@yahoo.com",
+  "telefono":""
+  },
+  {
+  "departamento":"ANTIOQUIA",
+  "entidad":"Secretaría Seccional de Salud y Protección Social ",
+  "direccion":"Calle 42B No. 52-106 Gober. Antioquia Piso 8 Centro Admin Departamental José María Cordoba",
+  "ciudad":"MEDELLIN",
+  "email":"espii@antioquia.gov.co",
+  "telefono":""
+  },
+  {
+  "departamento":"ARAUCA",
+  "entidad":"Unidad Administrativa Especial de Salud",
+  "direccion":"Calle 20 No. 20 -31/43",
+  "ciudad":"ARAUCA",
+  "email":"onieves@unisaludarauca.gov.co; manynp05@gmail.com",
+  "telefono":"3213945315"
+  },
+  {
+  "departamento":"ATLANTICO",
+  "entidad":"Secretaría Departamental de Salud del Atlántico",
+  "direccion":"Carrera 45 No. 39-20",
+  "ciudad":"BARRANQUILLA",
+  "email":"spenaloza@atlantico.gov.co\nsixtapenaloza@yahoo.com",
+  "telefono":"3012737929"
+  },
+  {
+  "departamento":"BARRANQUILLA",
+  "entidad":"Secretaria de salud Distrital de Barranquilla ",
+  "direccion":"calle 34 # 43 - 31 paseo Bolivar",
+  "ciudad":"BARRANQUILLA",
+  "email":"platabravo@yahoo.com",
+  "telefono":"3213944032"
+  },
+  {
+  "departamento":"BOGOTA",
+  "entidad":"Secretaría Distrital de Salud de Bogotá",
+  "direccion":"Calle 13 No.32-69",
+  "ciudad":"BOGOTA",
+  "email":" centrodistritaldeenlace@gmail.com",
+  "telefono":"3213945356"
+  },
+  {
+  "departamento":"BOLIVAR",
+  "entidad":"Secretaría de Salud Departamental de Bolívar",
+  "direccion":"Centro Calle de La Moneda No.7-55 Centro Histórico  Casa de la Moneda",
+  "ciudad":"CARTEGENA",
+  "email":"monicagroa@yahoo.es",
+  "telefono":"3183120278"
+  },
+  {
+  "departamento":"BOYACÁ",
+  "entidad":"Secretaría de Salud de Boyacá",
+  "direccion":"Av. Colón 22 A-16 Parque Santander",
+  "ciudad":"TUNJA",
+  "email":"clarasoniag@gmail.com",
+  "telefono":""
+  },
+  {
+  "departamento":"CALDAS",
+  "entidad":"Direccion Territorial de Salud de Caldas (E)",
+  "direccion":"Calle 49 N° 26 – 46",
+  "ciudad":"MANIZALEZ",
+  "email":"carmenza577@hotmail.com\n osorio_carmenza@yahoo.com",
+  "telefono":""
+  },
+  {
+  "departamento":"CAQUETÁ",
+  "entidad":"Secretaría Departamental de Salud Caqueta",
+  "direccion":"Calle 18 N° 8-80",
+  "ciudad":"FLORENCIA",
+  "email":"epidemiologia@idesac.gov.co, lilibeth2602@hotmail.com; epidemiologia@saludcaqueta.gov.co",
+  "telefono":"3213945329"
+  },
+  {
+  "departamento":"CARTAGENA",
+  "entidad":"Secretaría Distrital de Salud de Cartagena",
+  "direccion":"Centro Getsemaní Carrera 10B No 25 -10 Calle Larga Casa Fátima",
+  "ciudad":"CARTEGENA",
+  "email":"jovaplaz@hotmail.com\nsivigilacartagena@gmail.com; vspublica@gmail.com ; ",
+  "telefono":""
+  },
+  {
+  "departamento":"CASANARE",
+  "entidad":"Secretaría de Salud de Casanare",
+  "direccion":"Carrera 21 N° 8-32",
+  "ciudad":"YOPAL",
+  "email":"ingridcriollo@gmail.com",
+  "telefono":"3213945316"
+  },
+  {
+  "departamento":"CAUCA",
+  "entidad":"Secretaría Departamental de Salud de Cauca",
+  "direccion":"Calle 5a No. 15-57",
+  "ciudad":"POPAYAN",
+  "email":"a.tobon@saludcauca.gov.co\nepidemiologiacauca@saludcauca.gov.co",
+  "telefono":"3213945280"
+  },
+  {
+  "departamento":"CESAR",
+  "entidad":"Secretaría Departamental de Salud de Cesar",
+  "direccion":"Transversal 18 N° 19-65",
+  "ciudad":"VALLEDUPAR",
+  "email":"epicesar@hotmail.com",
+  "telefono":"3213945281"
+  },
+  {
+  "departamento":"CHOCO",
+  "entidad":"Departamento Administrativo de Salud del Choco",
+  "direccion":"Calle 31 4-44 B. Cristo Rey  ",
+  "ciudad":"QUIBDO",
+  "email":"juanfer2004@hotmail.com",
+  "telefono":""
+  },
+  {
+  "departamento":"CORDOBA",
+  "entidad":"Secretaría de Desarrollo de Salud Cordoba",
+  "direccion":"Calle 10 25-105 Suricentro Piso 2º",
+  "ciudad":"MONTERIA",
+  "email":"sivigilacordoba@hotmail.com; sivigilacordoba@gmail.com",
+  "telefono":"3213944045"
+  },
+  {
+  "departamento":"CUNDINAMARCA",
+  "entidad":"Secretaría Departamental de Salud de Cundinamarca",
+  "direccion":"Calle  26 No. 51-53  Piso 6\n",
+  "ciudad":"BOGOTA",
+  "email":"jfsanchez@cundinamarca.gov.co",
+  "telefono":"3213945354"
+  },
+  {
+  "departamento":"GUAINIA",
+  "entidad":"Secretaría Departamental de Salud de Guainía",
+  "direccion":"Av Fundadores esquina Carrera 10",
+  "ciudad":"PUERTO INIRIDA",
+  "email":"laboratorioguaviare@gmail.com",
+  "telefono":""
+  },
+  {
+  "departamento":"GUAJIRA",
+  "entidad":"Secretaría Departamental de Salud La Guajira",
+  "direccion":"Calle 12 No. 8-19",
+  "ciudad":"RIOHACHA",
+  "email":" <dubaralcasou2009@hotmail.com>",
+  "telefono":"3014587811"
+  },
+  {
+  "departamento":"GUAVIARE",
+  "entidad":"Secretaría Departamental de Salud Guaviare",
+  "direccion":"Calle 7 N° 23-51",
+  "ciudad":"SAN JOSE DE GUAVIARE",
+  "email":"mariaconsuelo_45@hotmail.com",
+  "telefono":"3213945350"
+  },
+  {
+  "departamento":"HUILA",
+  "entidad":"Secretaría de Salud Departamental Huila",
+  "direccion":"Cra 20 Nº 5-B -36",
+  "ciudad":"NEIVA",
+  "email":"lbruzon30@yahoo.es",
+  "telefono":""
+  },
+  {
+  "departamento":"MAGDALENA",
+  "entidad":"Secretaría Departamental de Salud Magdalena",
+  "direccion":"Calle 23   13 A –02 Los Alcázares",
+  "ciudad":"SANTA MARTA",
+  "email":"vigilanciaensalupublica@magdalena.gov.co\nlcuellarg@gmail.com",
+  "telefono":"3014587650"
+  },
+  {
+  "departamento":"META",
+  "entidad":"Secretaría Departamental de Salud del Meta",
+  "direccion":"Carrera 37 No. 41-80  ",
+  "ciudad":"VILLAVICENCIO",
+  "email":"o_ramirez_gomez@yahoo.es; epidemiologiameta3@gmail.com, oramirezg@meta.gov.co",
+  "telefono":""
+  },
+  {
+  "departamento":"NARIÑO",
+  "entidad":"Instituto Departamental de Salud de Nariño",
+  "direccion":"Calle 15 N° 28-41 Bombona ",
+  "ciudad":"PASTO",
+  "email":"jcvela@idsn.gov.co ",
+  "telefono":"3014587681"
+  },
+  {
+  "departamento":"NORTE DE STDER",
+  "entidad":"Instituto Departamental de Salud de Norte de Santander",
+  "direccion":"Avenida 0 - Calle 10 – Edificio Rosetal  - Tercer Piso",
+  "ciudad":"CUCUTA",
+  "email":"saludpublica.norte@gmail.com, saludpublica.norte@yahoo.es\nepidemiologianorte@yahoo.es SALAS ERA <salasera2013@gmail.com>",
+  "telefono":"3213944063"
+  },
+  {
+  "departamento":"PUTUMAYO",
+  "entidad":"Secretaría de Salud Departamental de Putumayo",
+  "direccion":"Cra 4 No. 8-26",
+  "ciudad":"MOCOA",
+  "email":"andreapmg80@hotmail.com\nsivigilaputumayo@gmail.com;  ",
+  "telefono":"3213945306"
+  },
+  {
+  "departamento":"QUINDIO",
+  "entidad":"Secretaría Departamental de Salud del Quindio",
+  "direccion":"Carrera 14 N° 9-57",
+  "ciudad":"ARMENIA",
+  "email":"saludvigilanciasp@quindio.gov.co",
+  "telefono":"3014587549"
+  },
+  {
+  "departamento":"RISARALDA",
+  "entidad":"Secretaría de Salud departamental de Risaralda",
+  "direccion":"Parque Olaya Herrera  Calle 19  Número 13 - 17  Piso 5",
+  "ciudad":"PEREIRA",
+  "email":"cristian.herrera@risaralda.gov.co\nepidemiologia.salud@risaralda.gov.co\n\n",
+  "telefono":""
+  },
+  {
+  "departamento":"SAN ANDRES",
+  "entidad":"Secretaria Departamental de Salud San Andrés ",
+  "direccion":"Avenida Francisco Newball Edificio Coral Palace ",
+  "ciudad":"SAN ANDRES",
+  "email":"sivigila_sanandres@yahoo.com.mx",
+  "telefono":"3213945346"
+  },
+  {
+  "departamento":"SANTA MARTA",
+  "entidad":"Secretaría Distrital de Salud de Santa Marta",
+  "direccion":"Calle 16 # 14A-08    ",
+  "ciudad":"MAGDALENA",
+  "email":"patriciaponceguida@hotmail.com\nsivigiladistrital@gmail.com\nsivigiladistrital@hotmail.com",
+  "telefono":""
+  },
+  {
+  "departamento":"SANTANDER",
+  "entidad":"Secretaría de Salud Departamental de Santander",
+  "direccion":"Calle 45 No. 11 – 52",
+  "ciudad":"BUCARAMANGA",
+  "email":"atorrespri@gmail.com",
+  "telefono":"3014587539"
+  },
+  {
+  "departamento":"SUCRE",
+  "entidad":"Secretaría de Salud Departamental de Sucre",
+  "direccion":"Cra 14 Nº 15ª-140",
+  "ciudad":"SINCELEJO",
+  "email":"blancavalderrama18@hotmail.com",
+  "telefono":"3213944073"
+  },
+  {
+  "departamento":"TOLIMA",
+  "entidad":"Secretaría de salud de Tolima",
+  "direccion":"Edificio De La Gobernación Piso 6",
+  "ciudad":"IBAGUE",
+  "email":"zlacosta0616@hotmail.com\n",
+  "telefono":"3213944086"
+  },
+  {
+  "departamento":"VALLE  DEL CAUCA ",
+  "entidad":"Secretaría Departamental de Salud de Valle del Cauca",
+  "direccion":"Carrera 6ª  Calles 9 Y 10 Edificio Gobernación Piso 11",
+  "ciudad":"CALI",
+  "email":"g.aristi.ssr@gmail.com",
+  "telefono":"3213944077"
+  },
+  {
+  "departamento":"VAUPES",
+  "entidad":"Secretaria de Salud Departamental del Vaupés ",
+  "direccion":"Calle 13 No 15 - 127 Barrio Centro ",
+  "ciudad":"MITÚ",
+  "email":"vigilanciaensalud@yahoo.es",
+  "telefono":"3213945341"
+  },
+  {
+  "departamento":"VICHADA",
+  "entidad":"Secretaría Departamental de Salud de Vichada",
+  "direccion":"Avenida Orinoco calle 10 # 7- 48 Barrio la primavera.",
+  "ciudad":"PUERTO CARREÑO",
+  "email":"sivigilavichada@yahoo.com",
+  "telefono":"3213944084"
+  }
+  ]
