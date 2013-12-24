@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13A603" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="DirectorioEntidades" representedClassName="DirectorioEntidades" syncable="YES">
+        <attribute name="ciudad" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="departamento" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="direccion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="entidad" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telefono" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EventoSalud" representedClassName="EventoSalud" syncable="YES">
+        <attribute name="acccolec" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="accind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="apolab" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="casconf" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="casprob" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cassosp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descrevent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="diagdif" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fichnotif" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkurl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nomeven" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nomgrup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nomsubgru" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="otrapoyo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tiemnotif" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="GeneralidadesSivigila" representedClassName="GeneralidadesSivigila" syncable="YES">
+        <attribute name="descrip" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dominf" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subtem" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tem" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DirectorioEntidades" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="EventoSalud" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="GeneralidadesSivigila" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>
