@@ -8,11 +8,11 @@
 
 #import "AppDelegate.h"
 
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-
     
     //deteccion de pantallas 3.5 inch + aplicacion de storyboard correspondiente
     if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
