@@ -319,17 +319,6 @@ static CoreDataManager *coreDataManager;
 
 
 
-- (NSArray *)loadFileJson_EventoSalud
-{
-    NSError* err = nil;
-    NSString* dataPath = [[NSBundle mainBundle] pathForResource:FileNameJSON ofType:@"json"];
-    NSArray* dataArray = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:dataPath]
-                                                         options:kNilOptions
-                                                           error:&err];
-    return dataArray;
-    
-}
-
 - (NSArray *)loadFileJson_DirectorioEntidades
 {
     NSError* err = nil;

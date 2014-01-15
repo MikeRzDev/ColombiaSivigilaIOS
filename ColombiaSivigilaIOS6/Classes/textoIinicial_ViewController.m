@@ -57,17 +57,19 @@
     
     NSArray *titulos = @[
                          @"",
-                         titulo0,
                          @"",
-                         titulo1,
                          @"",
+                         @"",
+                         @"",
+                         @""
                           ];
     NSArray *parrafos = @[
                          textoIntro,
-                         @"\n\n\n\n\n\n\n",
+                         @"",
                          texto0,
-                         @"\n\n\n\n\n\n",
-                         texto1
+                         @"\n\n\n\n\n\n\n",
+                         texto1,
+                         @"\n\n\n\n\n\n\n\n\n\n\n"
                          ];
     
     
@@ -78,7 +80,7 @@
             [bufferTexto appendString: titulos[i]];
             [bufferTexto appendString: @"\n"];
             [bufferTexto appendString: parrafos[i]];
-            [bufferTexto appendString: @"\n\n"];
+            [bufferTexto appendString: @"\n"];
     }
     
     
@@ -97,12 +99,12 @@
     //detectar dispostivo para poner imagen en uitextview
     if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad )
     {
-       imageView.frame = CGRectMake(180, 220, 320, 200);
+       imageView.frame = CGRectMake(180, 290, 320, 200);
        imageView2.frame = CGRectMake(150, 570, 399, 162);
     }
     else
     {
-       imageView.frame = CGRectMake(20, 250, 220, 140);
+       imageView.frame = CGRectMake(20, 320, 220, 140);
        imageView2.frame = CGRectMake(10, 550, 260, 110);
     }
     

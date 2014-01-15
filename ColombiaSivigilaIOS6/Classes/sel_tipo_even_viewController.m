@@ -149,7 +149,7 @@ en la vista origen se modifica la informacion en la vista destino
         if ([httpResponse statusCode] != 200)
         {
             responseErr=true;
-            badRepoNames=[badRepoNames stringByAppendingString:@"enosfinal "];
+            badRepoNames=[badRepoNames stringByAppendingString:@"enosfinal"];
             
         }
         dispatch_async(dispatch_get_main_queue(), ^(void) {
@@ -240,6 +240,10 @@ en la vista origen se modifica la informacion en la vista destino
         
         //Display alert view, before sending your request..
         [self showLoadingAlert];
+        
+        //carga el directorio desde el json aunque no necesite conexion desde internet
+        [[CoreDataManager sharedManager] loadDb_DirectorioEntidadesFromFileJSON];
+        
         NSURL *url = [NSURL URLWithString:UrlEventosSaludJSON];
         
         NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
@@ -302,7 +306,7 @@ en la vista origen se modifica la informacion en la vista destino
 
 //sobrecarga del metodo de lanzamiento de segues para validar si existe la base, pase a las interfaces de lo contrario no
 - (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender {
-    if ([identifier isEqualToString:@"enosSegue"])
+    if ([identifier isEqualToString:@"transbleEventoSegue"] || [identifier isEqualToString:@"noTransbleEventoSegue"] || [identifier isEqualToString:@"causaExtEventoSegue"] || [identifier isEqualToString:@"busqRapidaEvtSegue"] || [identifier isEqualToString:@"conSivigilaSegue"] || [identifier isEqualToString:@"dirSegue"])
     {
         if ([self isDataOnLocalDB])
             return YES;
@@ -312,18 +316,6 @@ en la vista origen se modifica la informacion en la vista destino
             return NO;
         }
     }
-    else if ([identifier isEqualToString:@"generalidadesSegue"]) {
-        
-        if ([self isDataOnLocalDB])
-            return YES;
-        
-        else
-        {
-            [self showNoDataAlert];
-            return NO;
-        }
-    }
-    
     return YES;
     
 }

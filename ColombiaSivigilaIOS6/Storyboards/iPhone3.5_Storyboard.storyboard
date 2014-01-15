@@ -10,15 +10,15 @@
             <objects>
                 <viewController id="3ck-AF-Let" customClass="textoIinicial_ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EQQ-vW-w7U">
-                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="N3n-xZ-CrI">
-                                <rect key="frame" x="0.0" y="-31" width="320" height="417"/>
+                                <rect key="frame" x="0.0" y="43" width="320" height="417"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="8mf-Dd-sg8">
-                                <rect key="frame" x="20" y="26" width="280" height="305"/>
+                                <rect key="frame" x="20" y="49" width="280" height="305"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -102,15 +102,15 @@
             <objects>
                 <viewController id="fA0-4y-X3w" customClass="generalidadesSivigila_viewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xN3-Az-N03">
-                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="AOZ-DM-CS1">
-                                <rect key="frame" x="0.0" y="-31" width="320" height="417"/>
+                                <rect key="frame" x="0.0" y="43" width="320" height="417"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bYK-08-eNc" customClass="CoolButton">
-                                <rect key="frame" x="20" y="80" width="280" height="44"/>
+                                <rect key="frame" x="20" y="97" width="280" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -120,7 +120,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KBU-wW-Mux" customClass="CoolButton">
-                                <rect key="frame" x="20" y="131" width="280" height="44"/>
+                                <rect key="frame" x="20" y="159" width="280" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -132,7 +132,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PSZ-sU-yc1" customClass="CoolButton">
-                                <rect key="frame" x="20" y="182" width="280" height="44"/>
+                                <rect key="frame" x="20" y="221" width="280" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -144,7 +144,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Weo-kB-0uV" customClass="CoolButton">
-                                <rect key="frame" x="20" y="233" width="280" height="44"/>
+                                <rect key="frame" x="20" y="283" width="280" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -182,7 +182,7 @@
             <objects>
                 <viewController id="yQn-6h-4dG" customClass="busqRapidaPalabrasClav_ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pjH-DU-Saz">
-                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="LtG-rJ-sZK">
@@ -264,7 +264,7 @@
             <objects>
                 <viewController id="Kyf-Ff-EI0" customClass="Actores_ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PWz-kG-ZoW">
-                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="entidades417.png" id="pfF-w7-nMi">
@@ -288,15 +288,15 @@
             <objects>
                 <viewController id="lrc-Rt-iOQ" customClass="genSivigila_ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KEU-ns-6Db">
-                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="fVQ-GG-wfv">
-                                <rect key="frame" x="0.0" y="-31" width="320" height="417"/>
+                                <rect key="frame" x="0.0" y="43" width="320" height="417"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <webView contentMode="scaleToFill" id="fgR-sw-Zy6">
-                                <rect key="frame" x="20" y="80" width="280" height="250"/>
+                                <rect key="frame" x="20" y="123" width="280" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <inset key="insetFor6xAndEarlier" minX="0.0" minY="30" maxX="0.0" maxY="-30"/>
                             </webView>
@@ -369,11 +369,11 @@
             <objects>
                 <viewController id="ptR-mc-Yyb" customClass="acercaDe_ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tQl-TO-fZ7">
-                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="acerca_de_417.png" id="tCM-4k-TiR">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="386"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
@@ -397,26 +397,26 @@
             <objects>
                 <viewController id="Isr-XD-rEk" customClass="sel_tipo_even_viewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iLW-Bg-8bm">
-                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="fmH-14-MnT">
-                                <rect key="frame" x="0.0" y="-31" width="320" height="417"/>
+                                <rect key="frame" x="0.0" y="43" width="320" height="417"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bm2-Ur-IUJ">
-                                <rect key="frame" x="60" y="225" width="84" height="96"/>
+                                <rect key="frame" x="60" y="282" width="84" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Button" image="conceptos_sivigila.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="fA0-4y-X3w" kind="push" id="vH1-QR-L8b"/>
+                                    <segue destination="fA0-4y-X3w" kind="push" identifier="conSivigilaSegue" id="vH1-QR-L8b"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nhl-iI-PjD">
-                                <rect key="frame" x="20" y="65" width="80" height="96"/>
+                                <rect key="frame" x="20" y="81" width="80" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -428,7 +428,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PaU-VB-dff">
-                                <rect key="frame" x="220" y="65" width="80" height="96"/>
+                                <rect key="frame" x="220" y="81" width="80" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -440,7 +440,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="1IU-Pb-BTx">
-                                <rect key="frame" x="120" y="65" width="80" height="96"/>
+                                <rect key="frame" x="120" y="81" width="80" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -452,18 +452,18 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gZl-qa-Ecu">
-                                <rect key="frame" x="180" y="225" width="80" height="96"/>
+                                <rect key="frame" x="180" y="282" width="80" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" image="directorio.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nrd-SF-iDx" kind="push" id="AO4-dh-jhr"/>
+                                    <segue destination="nrd-SF-iDx" kind="push" identifier="dirSegue" id="AO4-dh-jhr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uym-qI-9wm">
-                                <rect key="frame" x="138" y="172" width="44" height="44"/>
+                                <rect key="frame" x="138" y="209" width="44" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <inset key="insetFor6xAndEarlier" minX="0.0" minY="10" maxX="0.0" maxY="-10"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
@@ -471,7 +471,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="tQt-Cd-JfN" kind="push" id="dx2-0a-FWO"/>
+                                    <segue destination="tQt-Cd-JfN" kind="push" identifier="busqRapidaEvtSegue" id="dx2-0a-FWO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -501,7 +501,7 @@
             <objects>
                 <viewController id="tQt-Cd-JfN" customClass="busquedaRapida_ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="30y-yh-qbx">
-                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="h65-yK-FZ2">
@@ -567,7 +567,7 @@
             <objects>
                 <viewController id="n2Q-Nq-Geo" customClass="sel_nom_even_viewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ryO-HO-uhc">
-                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="V34-CF-J5y">
@@ -1080,10 +1080,10 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="Eef-7Q-sEf"/>
         <segue reference="WiT-YG-oTN"/>
-        <segue reference="em4-ug-YbZ"/>
+        <segue reference="AO4-dh-jhr"/>
         <segue reference="etv-Tk-gTf"/>
-        <segue reference="fNe-PG-LBj"/>
         <segue reference="6gr-d0-piY"/>
     </inferredMetricsTieBreakers>
 </document>
