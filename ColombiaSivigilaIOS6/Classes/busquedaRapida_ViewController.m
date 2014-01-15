@@ -84,12 +84,12 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
-    
+    cell.contentView.backgroundColor = [UIColor colorWithRed:147/255.0f green:159/255.0f blue:194/255.0f alpha:0.3];
     cell.textLabel.text = [[ElementosNombre objectAtIndex:indexPath.row] nomeven];
     
     //configuracion del texto de la celda
     cell.textLabel.text = [[ElementosNombre objectAtIndex:indexPath.row] nomeven];
-    cell.textLabel.textColor = [UIColor whiteColor];
+    cell.textLabel.textColor = [UIColor blackColor];
     cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:size];
     
     

@@ -17,6 +17,7 @@
 
 
 
+
 @interface sel_tipo_even_viewController ()
 @property (nonatomic,strong) UIAlertView *mensajeCarga;
 @property (nonatomic,assign) NSInteger currentNetworkTasks;
@@ -59,6 +60,41 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+- (IBAction)mostrarAcercaDe:(id)sender {
+    UIAlertView *acercaDeMsg = [[UIAlertView alloc] initWithTitle:@"Acerca de"
+                                                        message:nil
+                                                       delegate:self
+                                              cancelButtonTitle:@"Continuar"
+                                              otherButtonTitles:nil];
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logosministerio_acerca_de.png"]];
+    
+    acercaDeMsg.alertViewStyle = UIAlertViewStylePlainTextInput;
+    
+    //detectar dispostivo para poner imagen en uitextview
+    if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad )
+    {
+        imageView.frame = CGRectMake(180, 2650, 399, 162);
+    }
+    else
+    {
+        UITextField *textField = [acercaDeMsg textFieldAtIndex:0];
+        imageView.frame = CGRectMake(20, 30, 200, 110);
+        textField.text=@"\nColombia Sivigila v1.0\n\nMinisterio de Salud y Protección Social\n\n2013\n\nLOGOS\n\nDesarrollado por iPro Developers (Carlos Diaz, Miguel Ruiz, Jose Luis Bermudez)";
+        CGRect frameRect = textField.frame;
+        frameRect.size.height = 350;
+        textField.frame = frameRect;
+        
+        [textField addSubview:imageView];
+        
+    }
+    
+    
+    
+    [acercaDeMsg show];
 }
 
 

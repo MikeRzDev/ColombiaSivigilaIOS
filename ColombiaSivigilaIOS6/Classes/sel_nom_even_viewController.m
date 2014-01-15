@@ -50,7 +50,7 @@ pck_listaSubgrupos;
     
     
 
-    //LINEA NECESARIA PARA LOGRAR LA TRANSPARENCIA EN TEXTVIEW
+    //LINEA NECESARIA PARA LOGRAR LA TRANSPARENCIA EN TableView
     tv_listaEventos.backgroundColor = [UIColor clearColor];
     
     
@@ -77,7 +77,7 @@ pck_listaSubgrupos;
 -(void) textFieldSetup
 {
     t_nombreEvento.delegate=self;
-    t_nombreEvento.backgroundColor = [UIColor colorWithRed:0.506 green:0.561 blue:0.596 alpha:0.6];
+   // t_nombreEvento.backgroundColor = [UIColor colorWithRed:0.506 green:0.561 blue:0.596 alpha:0.6];
 
 }
 
@@ -145,11 +145,15 @@ numberOfRowsInComponent:(NSInteger)component
         
     }
     
+    //configuracion del background de la celda
+    cell.contentView.backgroundColor = [UIColor colorWithRed:147/255.0f green:159/255.0f blue:194/255.0f alpha:0.3];
+    cell.backgroundColor = [UIColor colorWithRed:147/255.0f green:159/255.0f blue:194/255.0f alpha:0.4];
+    
     //configuracion del texto de la celda
     cell.textLabel.text = [[ElementosNombre objectAtIndex:indexPath.row] nomeven];
-    cell.textLabel.textColor = [UIColor whiteColor];
+    cell.textLabel.textColor = [UIColor blackColor];
     cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:size];
-        cell.selectionStyle= UITableViewCellSelectionStyleBlue;
+    cell.selectionStyle= UITableViewCellSelectionStyleBlue;
     
     
     return cell;

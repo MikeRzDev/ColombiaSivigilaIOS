@@ -82,10 +82,10 @@
     }
     
     
-    
+    cell.contentView.backgroundColor = [UIColor colorWithRed:147/255.0f green:159/255.0f blue:194/255.0f alpha:0.3];
     //configuracion del texto de la celda
     cell.textLabel.text = [[generalidadesArray objectAtIndex:indexPath.row] subtem];
-    cell.textLabel.textColor = [UIColor whiteColor];
+    cell.textLabel.textColor = [UIColor blackColor];
     cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:size];
     cell.selectionStyle= UITableViewCellSelectionStyleBlue;
     

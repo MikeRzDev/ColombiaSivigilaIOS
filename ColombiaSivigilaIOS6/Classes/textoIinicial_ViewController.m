@@ -145,7 +145,7 @@
     {
         NSRange range=[initialText rangeOfString:word];
         [string addAttribute:NSForegroundColorAttributeName
-                       value:[UIColor colorWithRed:0.439 green:0.745 blue:0.804 alpha:1]
+                       value:[UIColor blueColor]
                        range:NSMakeRange(range.location, range.length)];
         [string addAttribute:NSFontAttributeName
                        value:[UIFont fontWithName:@"HelveticaNeue-Bold" size:size]
@@ -176,7 +176,7 @@
                            value:paragraphStyle
                            range:NSMakeRange(range.location, range.length)];
             [string addAttribute:NSForegroundColorAttributeName
-                           value:[UIColor whiteColor]
+                           value:[UIColor blackColor]
                            range:NSMakeRange(range.location, range.length)];
             [string addAttribute:NSFontAttributeName
                            value:[UIFont fontWithName:@"HelveticaNeue-Bold" size:size]
