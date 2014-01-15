@@ -726,7 +726,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Acerca de" id="SWw-bS-BEy">
-                        <barButtonItem key="backBarButtonItem" title="Atras" id="Nxr-uI-28G"/>
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="Nxr-uI-28G"/>
                         <barButtonItem key="rightBarButtonItem" title="Intro" id="06S-Q2-OkS">
                             <connections>
                                 <segue destination="FPN-he-dix" kind="push" id="gqu-sZ-GMN"/>
@@ -1042,7 +1042,7 @@
         <segue reference="gqu-sZ-GMN"/>
         <segue reference="rZs-cT-kU3"/>
         <segue reference="G2F-n4-bss"/>
-        <segue reference="wYT-2d-JD5"/>
+        <segue reference="2bA-S1-E1k"/>
         <segue reference="0Rw-sO-3HM"/>
     </inferredMetricsTieBreakers>
 </document>

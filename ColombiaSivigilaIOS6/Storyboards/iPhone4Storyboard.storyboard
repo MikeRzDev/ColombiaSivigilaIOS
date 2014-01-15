@@ -59,7 +59,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Acerca de" id="s2R-nd-q2D">
-                        <barButtonItem key="backBarButtonItem" title="Atras" id="VXr-DT-mmD"/>
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="VXr-DT-mmD"/>
                         <barButtonItem key="rightBarButtonItem" title="Intro" id="WGr-jj-8j5">
                             <connections>
                                 <segue destination="LRC-SR-pKg" kind="push" id="b2f-Te-SUt"/>
@@ -69,7 +69,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4f6-vB-RRD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1660" y="-2624"/>
+            <point key="canvasLocation" x="1660" y="-2579"/>
         </scene>
         <!--Dir Telef View Controller - Colombia SiVigila-->
         <scene sceneID="LdJ-DZ-hb0">
