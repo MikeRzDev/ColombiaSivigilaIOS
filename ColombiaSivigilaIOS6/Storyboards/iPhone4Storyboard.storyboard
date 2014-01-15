@@ -381,7 +381,7 @@
                             </textField>
                             <webView contentMode="scaleToFill" id="ZIF-qC-owF">
                                 <rect key="frame" x="17" y="71" width="280" height="325"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="insetFor6xAndEarlier" minX="0.0" minY="80" maxX="0.0" maxY="-80"/>
                             </webView>
                         </subviews>
