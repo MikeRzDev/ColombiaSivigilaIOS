@@ -710,22 +710,29 @@
             </objects>
             <point key="canvasLocation" x="315" y="-3737"/>
         </scene>
-        <!--View Controller-->
+        <!--Acerca De View Controller - Colombia SiVigila-->
         <scene sceneID="Ef0-uS-E8L">
             <objects>
-                <viewController id="lgO-KV-kiP" sceneMemberID="viewController">
+                <viewController id="lgO-KV-kiP" customClass="acercaDe_ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rQQ-pd-Wqb">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="f5s-2W-nad">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="acerca_de_1000.png" id="f5s-2W-nad">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="930"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="SWw-bS-BEy"/>
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Acerca de" id="SWw-bS-BEy">
+                        <barButtonItem key="backBarButtonItem" title="Atras" id="Nxr-uI-28G"/>
+                        <barButtonItem key="rightBarButtonItem" title="Intro" id="06S-Q2-OkS">
+                            <connections>
+                                <segue destination="FPN-he-dix" kind="push" id="gqu-sZ-GMN"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dCq-4l-EnY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -921,34 +928,34 @@
             <objects>
                 <viewController id="02b-CR-dX6" customClass="genSivigila_ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aFB-L1-SIW">
-                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_ipad.png" id="TuK-Rl-tuv">
-                                <rect key="frame" x="0.0" y="0.0" width="769" height="950"/>
+                                <rect key="frame" x="0.0" y="0.0" width="769" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <webView contentMode="scaleToFill" id="Ibl-cO-piE">
-                                <rect key="frame" x="20" y="85" width="728" height="674"/>
+                                <rect key="frame" x="20" y="110" width="728" height="674"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <inset key="insetFor6xAndEarlier" minX="0.0" minY="80" maxX="0.0" maxY="-80"/>
                             </webView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtema" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VbJ-29-E2R">
-                                <rect key="frame" x="29" y="102" width="184" height="24"/>
+                                <rect key="frame" x="29" y="110" width="184" height="24"/>
                                 <inset key="insetFor6xAndEarlier" minX="0.0" minY="80" maxX="0.0" maxY="-80"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temática Principal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PcK-Xl-32Y">
-                                <rect key="frame" x="25" y="9" width="188" height="24"/>
+                                <rect key="frame" x="25" y="10" width="188" height="24"/>
                                 <inset key="insetFor6xAndEarlier" minX="0.0" minY="80" maxX="0.0" maxY="-80"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="qQH-0h-Y9H">
-                                <rect key="frame" x="25" y="200" width="723" height="560"/>
+                                <rect key="frame" x="25" y="240" width="723" height="560"/>
                                 <inset key="insetFor6xAndEarlier" minX="0.0" minY="80" maxX="0.0" maxY="-80"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -956,7 +963,7 @@
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="9kn-eA-s3Q" customClass="nonSelectableTextField">
-                                <rect key="frame" x="20" y="39" width="728" height="32"/>
+                                <rect key="frame" x="20" y="42" width="728" height="32"/>
                                 <inset key="insetFor6xAndEarlier" minX="0.0" minY="80" maxX="0.0" maxY="-80"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -965,7 +972,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="aH5-49-3JJ" customClass="nonSelectableTextField">
-                                <rect key="frame" x="20" y="131" width="728" height="28"/>
+                                <rect key="frame" x="20" y="142" width="728" height="28"/>
                                 <inset key="insetFor6xAndEarlier" minX="0.0" minY="80" maxX="0.0" maxY="-80"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -1012,6 +1019,7 @@
     </scenes>
     <resources>
         <image name="acciones_de_control.png" width="325" height="431"/>
+        <image name="acerca_de_1000.png" width="709" height="1001"/>
         <image name="apoyo_diagnostico.png" width="325" height="432"/>
         <image name="background_ipad.png" width="761" height="1025"/>
         <image name="causa_externa.png" width="324" height="422"/>
@@ -1031,6 +1039,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="gqu-sZ-GMN"/>
         <segue reference="rZs-cT-kU3"/>
         <segue reference="G2F-n4-bss"/>
         <segue reference="wYT-2d-JD5"/>

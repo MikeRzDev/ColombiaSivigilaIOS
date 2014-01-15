@@ -57,39 +57,17 @@
     
     NSArray *titulos = @[
                          @"",
-                         @"",
                          titulo0,
+                         @"",
                          titulo1,
-                         titulo2,
-                         titulo3,
-                         titulo4,
-                         titulo5,
-                         titulo6,
-                         titulo7,
-                         titulo8,
-                         titulo9,
-                         titulo10,
-                           @"",
-                           @"",
-                         titulo11
+                         @"",
                           ];
     NSArray *parrafos = @[
-                        textoIntro,
-                        textoIntro2,
-                        texto0,
-                        texto1,
-                        texto2,
-                        texto3,
-                        texto4,
-                        texto5,
-                        texto6,
-                        texto7,
-                        texto8,
-                        texto9,
-                        texto10,
-                          @"",
-                          @"",
-                        texto11
+                         textoIntro,
+                         @"\n\n\n\n\n\n\n",
+                         texto0,
+                         @"\n\n\n\n\n\n",
+                         texto1
                          ];
     
     
@@ -112,22 +90,26 @@
     
     [self.textView setAttributedText:textoModif];
     
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"img_dimenciones_inicio.png"]];
+    UIImageView *imageView =  [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"intro1.png"]];
+    UIImageView *imageView2 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"intro2.png"]];
     
     
     //detectar dispostivo para poner imagen en uitextview
     if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad )
     {
-       imageView.frame = CGRectMake(180, 2650, 399, 162);
+       imageView.frame = CGRectMake(180, 220, 320, 200);
+       imageView2.frame = CGRectMake(150, 570, 399, 162);
     }
     else
     {
-       imageView.frame = CGRectMake(10, 3300, 260.8, 106);
+       imageView.frame = CGRectMake(20, 250, 220, 140);
+       imageView2.frame = CGRectMake(10, 550, 260, 110);
     }
     
   
     //agregar imagen a uitextview
     [textView addSubview:imageView];
+    [textView addSubview:imageView2];
 
 }
 

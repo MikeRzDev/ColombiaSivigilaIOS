@@ -364,15 +364,15 @@
             </objects>
             <point key="canvasLocation" x="-1205" y="-3622"/>
         </scene>
-        <!--View Controller - Colombia SiVigila-->
+        <!--Acerca De View Controller - Colombia SiVigila-->
         <scene sceneID="lWx-je-OsQ">
             <objects>
-                <viewController id="ptR-mc-Yyb" sceneMemberID="viewController">
+                <viewController id="ptR-mc-Yyb" customClass="acercaDe_ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tQl-TO-fZ7">
                         <rect key="frame" x="0.0" y="94" width="320" height="386"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="tCM-4k-TiR">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="acerca_de_417.png" id="tCM-4k-TiR">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="386"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -381,6 +381,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Acerca De" id="Axj-x7-Wxs">
                         <barButtonItem key="backBarButtonItem" title="Atras" id="VPl-ZT-qEX"/>
+                        <barButtonItem key="rightBarButtonItem" title="Intro" id="Pma-Gu-TzV">
+                            <connections>
+                                <segue destination="3ck-AF-Let" kind="push" id="WiT-YG-oTN"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n12-Gz-uBI" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -638,7 +643,7 @@
             <objects>
                 <viewController id="0zO-hC-Yvd" customClass="menuEvento_viewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eEI-bY-GBH">
-                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="qHc-Sf-OPN">
@@ -740,7 +745,7 @@
             <objects>
                 <viewController id="eWq-xg-Yxa" customClass="generalidades_ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ciu-dS-d74">
-                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="IEc-ff-OuP">
@@ -796,7 +801,7 @@
             <objects>
                 <viewController id="By1-5k-we8" customClass="diagDiferencial_ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="raZ-hk-6HO">
-                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="69N-69-Wjf">
@@ -852,7 +857,7 @@
             <objects>
                 <viewController id="Cbv-5X-w7J" customClass="apoyoDiag_ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UJJ-bT-ITD">
-                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="1pq-gn-JTD">
@@ -908,7 +913,7 @@
             <objects>
                 <viewController id="chw-PU-kVa" customClass="accionesControl_ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T8g-2S-zNu">
-                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="tCQ-U4-3Ul">
@@ -982,7 +987,7 @@
             <objects>
                 <viewController id="Rjn-TM-tKR" customClass="completo_ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qvo-st-0ms">
-                        <rect key="frame" x="0.0" y="94" width="320" height="386"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="KP1-50-e2z">
@@ -1055,6 +1060,7 @@
     </scenes>
     <resources>
         <image name="acciones_de_control.png" width="325" height="431"/>
+        <image name="acerca_de_417.png" width="321" height="418"/>
         <image name="apoyo_diagnostico.png" width="325" height="432"/>
         <image name="background.png" width="321" height="476"/>
         <image name="buscar.png" width="55" height="55"/>
@@ -1074,6 +1080,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="WiT-YG-oTN"/>
         <segue reference="AO4-dh-jhr"/>
         <segue reference="em4-ug-YbZ"/>
         <segue reference="etv-Tk-gTf"/>

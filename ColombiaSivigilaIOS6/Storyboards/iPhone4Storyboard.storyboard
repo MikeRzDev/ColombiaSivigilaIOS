@@ -43,15 +43,15 @@
             </objects>
             <point key="canvasLocation" x="973" y="-2579"/>
         </scene>
-        <!--View Controller - Colombia SiVigila-->
+        <!--Acerca De View Controller - Colombia SiVigila-->
         <scene sceneID="S8c-r1-jNW">
             <objects>
-                <viewController id="ldy-2W-p8U" sceneMemberID="viewController">
+                <viewController id="ldy-2W-p8U" customClass="acercaDe_ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KyM-RN-LgR">
                         <rect key="frame" x="0.0" y="94" width="320" height="474"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="w2h-Aw-Zd2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="acerca_de_505.png" id="w2h-Aw-Zd2">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="474"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -60,7 +60,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Acerca de" id="s2R-nd-q2D">
                         <barButtonItem key="backBarButtonItem" title="Atras" id="VXr-DT-mmD"/>
-                        <barButtonItem key="rightBarButtonItem" title="Intro" id="WGr-jj-8j5"/>
+                        <barButtonItem key="rightBarButtonItem" title="Intro" id="WGr-jj-8j5">
+                            <connections>
+                                <segue destination="LRC-SR-pKg" kind="push" id="b2f-Te-SUt"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4f6-vB-RRD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -245,7 +249,7 @@
                             </textField>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="etc-A3-y23">
                                 <rect key="frame" x="17" y="75" width="280" height="132"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="insetFor6xAndEarlier" minX="0.0" minY="80" maxX="0.0" maxY="-80"/>
                                 <prototypes>
@@ -535,7 +539,7 @@
                             </textField>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="4So-3X-xTD">
                                 <rect key="frame" x="13" y="83" width="294" height="308"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="insetFor6xAndEarlier" minX="0.0" minY="80" maxX="0.0" maxY="-80"/>
                                 <prototypes>
@@ -585,8 +589,8 @@
                                 <inset key="insetFor6xAndEarlier" minX="0.0" minY="80" maxX="0.0" maxY="-80"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="rpX-Rn-8kx">
-                                <rect key="frame" x="-1" y="238" width="320" height="176"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <rect key="frame" x="0.0" y="238" width="320" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="insetFor6xAndEarlier" minX="0.0" minY="80" maxX="0.0" maxY="-80"/>
                                 <prototypes>
@@ -874,7 +878,7 @@
             <objects>
                 <viewController id="3cb-Wd-kjI" customClass="apoyoDiag_ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nib-ea-oKy">
-                        <rect key="frame" x="0.0" y="94" width="320" height="474"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="Pv2-Ei-lzy">
@@ -1077,6 +1081,7 @@
     </scenes>
     <resources>
         <image name="acciones_de_control.png" width="325" height="431"/>
+        <image name="acerca_de_505.png" width="321" height="506"/>
         <image name="apoyo_diagnostico.png" width="325" height="432"/>
         <image name="background.png" width="321" height="476"/>
         <image name="buscar.png" width="55" height="55"/>
@@ -1097,6 +1102,7 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="evl-ak-XeW"/>
+        <segue reference="b2f-Te-SUt"/>
         <segue reference="WIl-UV-v1S"/>
         <segue reference="fbt-cK-cFS"/>
         <segue reference="w6i-wX-PcY"/>
