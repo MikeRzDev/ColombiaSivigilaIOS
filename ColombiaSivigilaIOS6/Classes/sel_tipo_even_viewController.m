@@ -200,7 +200,7 @@ en la vista origen se modifica la informacion en la vista destino
          NSInteger dbGeneralidadesSivigilaCount = [[CoreDataManager sharedManager] countListaGeneralidadesSivigilaEntities];
          */
         UIAlertView *sucessMsg = [[UIAlertView alloc] initWithTitle:@"Informacion"
-                                                            message:@"Éxito en la descarga de la información necesaria para la ejecución de esta aplicación"
+                                                            message:@"Éxito en la descarga de la información necesaria para la ejecución de esta aplicación."
                                   
                                                            delegate:self
                                                   cancelButtonTitle:@"Continuar"

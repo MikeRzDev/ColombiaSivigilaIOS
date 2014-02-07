@@ -329,9 +329,9 @@
                           ];
     NSArray *titulos = @[
                          @"Descripción del Evento",
-                         @"Casos Sospechosos",
-                         @"Casos Probables",
-                         @"Casos Confirmados",
+                         @"Caso Sospechoso",
+                         @"Caso Probable",
+                         @"Caso Confirmado",
                          @"Tiempo de Notificación",
                          @"Ficha de Notificación",
                          ];
