@@ -18,4 +18,3 @@ static NSString *texto0 = @"En Colombia el Sistema de Vigilancia en Salud está 
 
 static NSString *titulo1 = @"";
 static NSString *texto1 = @"Opera mediante cinco estrategias de vigilancia.";
-

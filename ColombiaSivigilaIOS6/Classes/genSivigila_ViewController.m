@@ -182,7 +182,10 @@
     if ([filtroGen.tem isEqualToString: @"REPRESENTACIÓN GRÁFICA"])
     {
         textv_descripcion.hidden = true;
-        NSString *fullURL = descripcion;
+        /* esperando cambio en el repo*/
+        // NSString *fullURL = descripcion;
+        NSString *fullURL = @"https://scontent-a-mia.xx.fbcdn.net/hphotos-frc3/t1/1901270_1390107397919468_921929203_n.jpg";
+        
         NSURL *url = [NSURL URLWithString:fullURL];
         NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
         webv_imgFlujoInf.hidden=false;
