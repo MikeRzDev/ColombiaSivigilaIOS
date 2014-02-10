@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--Dir Telef View Controller-->
+        <!--Dir Telef View Controller - Colombia SiVigila-->
         <scene sceneID="4bz-Ly-dLW">
             <objects>
                 <viewController id="4x3-Eu-zKy" customClass="dirTelef_ViewController" sceneMemberID="viewController">
@@ -47,7 +47,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" prompt="Directorio " id="8ps-Ge-qu6">
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Directorio Secretarias de Salud" id="8ps-Ge-qu6">
                         <barButtonItem key="backBarButtonItem" title="Atrás" id="0XX-Xv-zGC"/>
                     </navigationItem>
                     <connections>
@@ -826,7 +826,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" prompt="Generalidades Sivigila" id="5t0-PG-UkR">
+                    <navigationItem key="navigationItem" prompt="Conceptos Sivigila" id="5t0-PG-UkR">
                         <barButtonItem key="backBarButtonItem" title="Atrás" id="IHO-GJ-aOi"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="Av7-s2-asv">
                             <connections>
@@ -1040,14 +1040,14 @@
     </scenes>
     <resources>
         <image name="acciones_de_control.png" width="325" height="431"/>
-        <image name="acerca_de_1000.png" width="709" height="1001"/>
+        <image name="acerca_de_1000.png" width="760" height="1024"/>
         <image name="apoyo_diagnostico.png" width="325" height="432"/>
         <image name="background_ipad.png" width="760" height="1024"/>
         <image name="causa_externa.png" width="324" height="422"/>
         <image name="conceptos_sivigila.png" width="325" height="431"/>
         <image name="diagnostico.png" width="325" height="431"/>
         <image name="directorio.png" width="385" height="428"/>
-        <image name="entidades1000.png" width="709" height="1001"/>
+        <image name="entidades1000.png" width="760" height="1024"/>
         <image name="generalidades.png" width="325" height="429"/>
         <image name="informacion_completa.png" width="171" height="251"/>
         <image name="ipad_buscar.png" width="126" height="126"/>

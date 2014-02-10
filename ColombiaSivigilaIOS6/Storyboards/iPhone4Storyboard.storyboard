@@ -113,7 +113,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Directorio" id="sRD-RP-x91">
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Directorio Secretarias de Salud" id="sRD-RP-x91">
                         <barButtonItem key="backBarButtonItem" title="Atrás" id="zlh-PL-AKj"/>
                     </navigationItem>
                     <connections>
@@ -192,7 +192,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Generalidades Sivigila" id="ZOO-3p-j9p">
+                    <navigationItem key="navigationItem" title="Colombia SiVigila" prompt="Conceptos Sivigila" id="ZOO-3p-j9p">
                         <barButtonItem key="backBarButtonItem" title="Atrás" id="ikB-TM-QjF"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="JMo-pt-JGB">
                             <connections>
@@ -894,7 +894,7 @@
             <objects>
                 <viewController id="3cb-Wd-kjI" customClass="apoyoDiag_ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nib-ea-oKy">
-                        <rect key="frame" x="0.0" y="94" width="320" height="474"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="Pv2-Ei-lzy">
@@ -1097,7 +1097,7 @@
     </scenes>
     <resources>
         <image name="acciones_de_control.png" width="325" height="431"/>
-        <image name="acerca_de_505.png" width="321" height="506"/>
+        <image name="acerca_de_505.png" width="320" height="475"/>
         <image name="apoyo_diagnostico.png" width="325" height="432"/>
         <image name="background.png" width="320" height="475"/>
         <image name="buscar.png" width="55" height="55"/>
@@ -1105,7 +1105,7 @@
         <image name="conceptos_sivigila.png" width="325" height="431"/>
         <image name="diagnostico_diferencial.png" width="325" height="430"/>
         <image name="directorio.png" width="385" height="428"/>
-        <image name="entidades505.png" width="320" height="505"/>
+        <image name="entidades505.png" width="321" height="476"/>
         <image name="generalidades_evento.png" width="325" height="430"/>
         <image name="informacion_completa.png" width="171" height="251"/>
         <image name="no_transmisibles.png" width="325" height="430"/>
@@ -1117,8 +1117,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="vKR-wV-tqD"/>
         <segue reference="fbt-cK-cFS"/>
+        <segue reference="b2f-Te-SUt"/>
         <segue reference="WIl-UV-v1S"/>
         <segue reference="evl-ak-XeW"/>
         <segue reference="w6i-wX-PcY"/>

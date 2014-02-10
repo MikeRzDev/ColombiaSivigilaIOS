@@ -117,7 +117,7 @@
                 // Email Subject
                 NSString *emailTitle = [NSString stringWithFormat:@"Información Evento de Vigilancia de Salud Publica en Colombia: %@", eventoSalud.nomeven];
                 // Email Content
-                NSString *messageBody = textView.text;
+                NSString *messageBody = [self getTextoCompletoEvento];
                 // To address
                 NSArray *toRecipents = [NSArray arrayWithObject:@""];
                 
@@ -152,7 +152,7 @@
             
             SLComposeViewController *controller = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
             
-            [controller setInitialText:[NSString stringWithFormat:@"Evento de Vigilancia de Salud Publica en Colombia: %@\n%@", eventoSalud.nomeven,textView.text]];
+            [controller setInitialText:[NSString stringWithFormat:@"Evento de Vigilancia de Salud Publica en Colombia: %@\n%@", eventoSalud.nomeven,[self getTextoCompletoEvento]]];
             
             [controller addURL:[NSURL URLWithString:@"http://www.ins.gov.co/lineas-de-accion/Subdireccion-Vigilancia/sivigila/Paginas/sivigila.aspx"]];
             [controller addImage:[UIImage imageNamed:@"socialsharing-facebook-image.jpg"]];
@@ -341,6 +341,68 @@
     textoModif = [self justifyParagraphs:textoModif paragraphs:parrafos];
     
     [self.textView setAttributedText:textoModif];
+}
+
+-(NSString * ) getTextoCompletoEvento
+{
+    
+    
+    eventoSalud = [[CoreDataManager sharedManager] getEntitiesWithCriteria:@"TraerPorNombreSolo" claseFiltro:eventoSeleccionado][0];
+    
+    NSArray *parrafos = @[
+                          eventoSalud.nomgrup,
+                          eventoSalud.nomsubgru,
+                          eventoSalud.descrevent,
+                          eventoSalud.cassosp,
+                          eventoSalud.casprob,
+                          eventoSalud.casconf,
+                          eventoSalud.tiemnotif,
+                          eventoSalud.fichnotif,
+                          eventoSalud.diagdif,
+                          eventoSalud.apolab,
+                          eventoSalud.otrapoyo,
+                          eventoSalud.accind,
+                          eventoSalud.acccolec,
+                          eventoSalud.linkurl
+                          ];
+    NSArray *titulos = @[
+                         @"Nombre del Grupo",
+                         @"Nombre del Subgrupo",
+                         @"Descripción del Evento",
+                         @"Casos Sospechosos",
+                         @"Casos Probables",
+                         @"Casos Confirmados",
+                         @"Tiempo de Notificación",
+                         @"Ficha de Notificación",
+                         @"Diagnóstico Diferencial",
+                         @"Apoyo de Laboratorio",
+                         @"Otros Apoyos",
+                         @"Acciones Individuales",
+                         @"Acciones Colectivas",
+                         @"Link URL"
+                         ];
+    
+    
+    tituloEvento.text = eventoSalud.nomeven;
+    
+    NSMutableString *bufferTexto = [NSMutableString stringWithString:@""];
+    
+    
+    for ( int i = 0; i < [titulos count]; i++)
+    {
+        if (![parrafos[i] isEqualToString: @""] && ![parrafos[i] isEqualToString: @"DILIGENCIAR"])
+        {
+            [bufferTexto appendString: titulos[i]];
+            [bufferTexto appendString: @"\n"];
+            [bufferTexto appendString: parrafos[i]];
+            [bufferTexto appendString: @"\n\n"];
+        }
+    }
+    
+    
+    NSString *textoEvento=[NSString stringWithString:bufferTexto];
+    
+    return  textoEvento;
 }
 
 @end
